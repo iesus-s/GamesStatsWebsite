@@ -1,0 +1,42 @@
+.playerCardToTheUpperRight {
+    position: absolute;
+    left: 10rem;
+    top: 1rem;
+}
+
+.moveUp {
+    position: absolute;
+    top: 20rem;
+}
+
+.moveToTheLeft {
+    position: absolute;
+    right: 20rem;
+}
+
+.moveToTheFarRight {
+    position: absolute;
+    right: 1rem;
+}
+
+.centerObject {
+    position: absolute;
+    left: 7rem;
+}
+
+.gameHistoryInfo {
+    position: relative;
+    right: 1rem;
+}
+
+.gameHistoryCardUnder {
+    position: relative;
+    top: 10rem;
+    right: 5.5rem;
+}
+
+.bottomAd {
+    position: absolute;
+    bottom: 9rem;
+    left: 1rem;
+}
