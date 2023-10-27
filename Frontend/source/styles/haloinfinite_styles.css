@@ -1,0 +1,38 @@
+body {
+    padding-bottom: 20rem;
+    padding-top: 1rem;
+    background-image: url("images/halohead.jpg");
+    background-color: #323a31;
+}
+
+.playername {
+    font-size: 2rem;
+}
+
+.playersection {
+    background-color: #064206;
+}
+
+h1 {
+    color: #f7f7f7;
+}
+
+.topkillers {
+    background-color: #064206;
+    color: #f7f7f7;
+}
+
+.topachievers {
+    background-color: #064206;
+    color: #f7f7f7;
+}
+
+.toplosers {
+    background-color: #064206;
+    color: #f7f7f7;
+}
+
+.topheadshots {
+    background-color: #064206;
+    color: #f7f7f7;
+}
