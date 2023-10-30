@@ -1,0 +1,31 @@
+body{
+  padding-bottom: 300px;
+  background-color: gray;
+}
+.section1 {
+  margin-top: 100px;
+}
+
+.header {
+  text-align: center;
+}
+
+.section2 {
+  padding-top: 10px;
+}
+
+.section3 {
+  padding-top: 50px;
+}
+
+.section4 {
+  padding-top: 50px;
+}
+
+.section5 {
+  padding-top: 50px;
+}
+
+.section6 {
+  padding-top: 50px;
+}
