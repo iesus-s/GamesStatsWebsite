@@ -1,6 +1,6 @@
 
 body {
-    background: url("GameImages/mw2.jpeg"), url("GameImages/halo-infinite-cover.jpeg"), url("GameImages/CSGO.jpg");
+    background: url("../images/mw2.jpeg"), url("../images/halo-infinite-cover.jpeg"), url("GameImages/CSGO.jpg");
     background-size: auto, auto, 500px;
     background-repeat: no-repeat, no-repeat, no-repeat;
 
