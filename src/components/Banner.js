@@ -1,4 +1,3 @@
-
 const Banner = ({message}) => {
   return (
     <section id="sign-in-banner">
@@ -10,6 +9,7 @@ const Banner = ({message}) => {
             </div>
         </div>
     </section>
+
   )
 }
 

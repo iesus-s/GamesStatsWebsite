@@ -1,16 +1,13 @@
-// import Banner from "./components/Banner"
-// import LoginForm from "./components/LoginForm";
-import AccountProfile from "./components/AccountProfile"
-import AccountAccordion from "./components/AccountAccordion"
+import Banner from "./components/Banner"
+import LoginForm from "./components/LoginForm";
+import NavBar from "./components/NavBar";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const App = () => {
   return (
     <div className="App container-fluid">
-      Test
-      {/* <Banner />
-      <LoginForm /> */}
-      <AccountProfile />
-      <AccountAccordion />
-
+        <NavBar />
+        <Banner />
     </div>
   );
 }
