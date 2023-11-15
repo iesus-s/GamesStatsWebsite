@@ -8,7 +8,7 @@ const LoginButton = ({label}) => {
 }
 
 LoginButton.defaultProps = {
-    label: 'Login in'
+    label: 'Login'
 }
 
 export default LoginButton
