@@ -4,7 +4,6 @@ import LoginForm from "./components/LoginForm";
 import NavBar from "./components/NavBar";
 import ApexLegends from "./components/ApexLegends"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Row} from "react-bootstrap";
 import Footer from "./components/Footer";
 import CounterStrike from "./components/CounterStrike";
 import Valorant from "./components/Valorant";

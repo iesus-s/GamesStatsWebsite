@@ -4,7 +4,7 @@ class Valorant extends Component {
     render() {
         return (
             <div>
-                VALORANT
+                <h1>VALORANT PAGE</h1>
             </div>
         );
     }
