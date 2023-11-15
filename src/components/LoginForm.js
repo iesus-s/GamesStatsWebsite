@@ -16,7 +16,7 @@ const LoginForm = () => {
             </div>
             <form>
                 <EmailAndPassword />
-                <div class="form-check max-w-sm mx-auto mb-5  ">
+                <div className="form-check max-w-sm mx-auto mb-5  ">
                     <RememberLogin />
                     <ForgotPasswordLink />
                 </div>
