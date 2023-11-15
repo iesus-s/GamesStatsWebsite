@@ -11,7 +11,7 @@ export default class NavBar extends Component {
                     <div className="container-fluid flex-col flex">
                     <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
                       <Container>
-                        <Navbar.Brand href="#home"><img alt="" src="/react-frag-pulse/src/images/logo.jpg"
+                        <Navbar.Brand href="/homepage"><img alt="" src="/react-frag-pulse/src/images/logo.jpg"
                           width="30" height="30"
                           className="d-inline-block align-top"/>{' '}FragPulse
                         </Navbar.Brand>

@@ -563,14 +563,6 @@ video {
   visibility: collapse;
 }
 
-.fixed {
-  position: fixed;
-}
-
-.absolute {
-  position: absolute;
-}
-
 .bottom-0 {
   bottom: 0px;
 }
@@ -764,10 +756,6 @@ video {
 
 .p-5 {
   padding: 1.25rem;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .px-1 {
