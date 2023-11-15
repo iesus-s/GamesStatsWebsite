@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import LogInStatus from "./LogInStatus";
 import LoginForm from "./LoginForm";
-import {Navbar, Container, Nav, NavDropdown, Row} from 'react-bootstrap'
+import {Navbar, Container, Nav, NavDropdown, Row, Image} from 'react-bootstrap'
 
 export default class NavBar extends Component {
     render() {
@@ -11,8 +11,8 @@ export default class NavBar extends Component {
                     <div className="container-fluid flex-col flex">
                     <Navbar expand="lg" className="bg-body-tertiary" data-bs-theme="dark">
                       <Container>
-                        <Navbar.Brand href="/homepage"><img alt="" src="/react-frag-pulse/src/images/logo.jpg"
-                          width="30" height="30"
+                        <Navbar.Brand href="/homepage">
+                            <Image alt="" src="/images/logo.jpg" width="30" height="30"
                           className="d-inline-block align-top"/>{' '}FragPulse
                         </Navbar.Brand>
                       </Container>

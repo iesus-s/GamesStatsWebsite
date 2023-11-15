@@ -629,7 +629,6 @@ video {
   margin-bottom: 20rem;
 }
 
-
 .me-5 {
   margin-inline-end: 1.25rem;
 }
@@ -637,7 +636,6 @@ video {
 .me-auto {
   margin-inline-end: auto;
 }
-
 
 .ms-auto {
   margin-inline-start: auto;
@@ -713,6 +711,10 @@ video {
   border-radius: 9999px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
 .border-0 {
   border-width: 0px;
 }
@@ -756,6 +758,10 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-1 {

@@ -4,7 +4,7 @@ class ApexLegends extends Component {
     render() {
         return (
             <div>
-                APEX LEGENDS
+                <h1>APEX LEGENDS PAGE</h1>
             </div>
         );
     }

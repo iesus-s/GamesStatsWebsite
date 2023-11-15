@@ -4,7 +4,7 @@ class CounterStrike extends Component {
     render() {
         return (
             <div>
-                COUNTER-STRIKE
+                <h1>COUNTER-STRIKE PAGE</h1>
             </div>
         );
     }
