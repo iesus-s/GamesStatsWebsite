@@ -1,3 +1,7 @@
+import Login from "./pages/Login"
+import Account from "./pages/Account"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import "./styles/main.css"
 import Banner from "./components/Banner"
 import HomePage from "./components/HomePage";
 import LoginForm from "./components/LoginForm";
@@ -42,12 +46,13 @@ const App = () => {
             Component = <LoginForm />
     }
   return (
-        <div className="App container-fluid">
-            <NavBar />
-            <Banner />
-            {Component}
-            <Footer />
-        </div>
+    <div className="App container-fluid">
+        <NavBar />
+        <Login />
+        <Account />
+
+    </div>
+
   );
 }
 
