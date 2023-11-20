@@ -5,7 +5,7 @@ class LogInStatus extends Component {
     render() {
         if (signed === 0){
             return (
-                <NavDropdown.Item href="#action/3.4">Log In</NavDropdown.Item>
+                <NavDropdown.Item href="/loginform">Log In</NavDropdown.Item>
             );
         }
         else {
