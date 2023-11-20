@@ -10,11 +10,14 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "tailwind-watch": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css --watch",
+    "tailwind": "npx tailwindcss -i ./src/styles/input.css -o ./src/styles/main.css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

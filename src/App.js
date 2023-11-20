@@ -8,8 +8,6 @@ const App = () => {
     <div className="App container-fluid">
         <NavBar />
         <Banner />
-        <LoginForm />
-
     </div>
   );
 }
