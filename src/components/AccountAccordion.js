@@ -8,6 +8,7 @@ const AccountAccordion = () => {
         <AccordionItem1 />
         <AccordionItem2 />
 
+
       </div>
     </div>
 

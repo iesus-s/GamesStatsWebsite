@@ -5468,6 +5468,7 @@ input:checked + .toggle-bg {
 :is(.dark .dark\:focus\:ring-teal-800:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(5 80 92 / var(--tw-ring-opacity));
+
 }
 
 :is(.dark .dark\:focus\:ring-yellow-400:focus) {
@@ -5518,6 +5519,7 @@ input:checked + .toggle-bg {
 :is(.dark .dark\:enabled\:hover\:border-pink-700:hover:enabled) {
   --tw-border-opacity: 1;
   border-color: rgb(191 18 93 / var(--tw-border-opacity));
+
 }
 
 :is(.dark .dark\:enabled\:hover\:border-red-700:hover:enabled) {
