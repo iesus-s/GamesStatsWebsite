@@ -1,7 +1,3 @@
-import Login from "./pages/Login"
-import Account from "./pages/Account"
-import 'bootstrap/dist/css/bootstrap.min.css'
-import "./styles/main.css"
 import Banner from "./components/Banner"
 import HomePage from "./components/HomePage";
 import LoginForm from "./components/LoginForm";
@@ -14,45 +10,23 @@ import Valorant from "./components/Valorant";
 import SupportPage from "./components/SupportPage";
 import AboutUsPage from "./components/AboutUsPage";
 import AdsPage from "./components/AdsPage";
+import {Route, Routes} from "react-router-dom";
 
-const App = () => {
-    let Component
-    switch (window.location.pathname){
-        case "/":
-            Component = <HomePage />
-            break;
-        case "/homepage":
-            Component = <HomePage />
-            break;
-        case "/apexlegends":
-            Component = <ApexLegends />
-            break;
-        case "/counterstrike":
-            Component = <CounterStrike />
-            break;
-        case "/valorant":
-            Component = <Valorant />
-            break;
-        case "/support":
-            Component = <SupportPage />
-            break;
-        case "/aboutus":
-            Component = <AboutUsPage />
-            break;
-        case "/ads":
-            Component = <AdsPage />
-            break;
-        case "/loginform":
-            Component = <LoginForm />
-    }
+function App() {
   return (
-    <div className="App container-fluid">
+      <>
         <NavBar />
-        <Login />
-        <Account />
-
-    </div>
-
+            <div className="container">
+                <Routes>
+                    <Route path="/homepage" element={<HomePage />} />
+                    <Route path="/games" element={<ApexLegends />} />
+                    <Route path="/support" element={<SupportPage />} />
+                    <Route path="/aboutus" element={<AboutUsPage />} />
+                    <Route path="/Ads" element={<AdsPage />} />
+                    <Route path="/LoginForm" element={<LoginForm />} />
+                </Routes>
+            </div>
+      </>
   );
 }
 
