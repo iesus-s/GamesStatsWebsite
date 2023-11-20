@@ -28,7 +28,10 @@ export default class NavBar extends Component {
                             <Link to="/ads">Ads</Link>
                         </li>
                         <li>
-                            <Link to="/loginform">Login</Link>
+                            <Link to="/account">Account</Link>
+                        </li>
+                        <li>
+                            <Link to="/login">Login</Link>
                         </li>
                     </ul>
                 </nav>
