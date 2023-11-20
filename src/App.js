@@ -1,6 +1,6 @@
-import Banner from "./components/Banner"
+import { Container } from "react-bootstrap";
 import HomePage from "./components/HomePage";
-import LoginForm from "./components/LoginForm";
+import Login from "./pages/Login";
 import NavBar from "./components/NavBar";
 import ApexLegends from "./components/ApexLegends"
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -10,6 +10,7 @@ import Valorant from "./components/Valorant";
 import SupportPage from "./components/SupportPage";
 import AboutUsPage from "./components/AboutUsPage";
 import AdsPage from "./components/AdsPage";
+import Account from "./pages/Account"
 import {Route, Routes} from "react-router-dom";
 
 function App() {
@@ -23,7 +24,8 @@ function App() {
                     <Route path="/support" element={<SupportPage />} />
                     <Route path="/aboutus" element={<AboutUsPage />} />
                     <Route path="/Ads" element={<AdsPage />} />
-                    <Route path="/LoginForm" element={<LoginForm />} />
+                    <Route path="/account" element={<Account />} />
+                    <Route path="/login" element={<Login />} />
                 </Routes>
             </div>
       </>

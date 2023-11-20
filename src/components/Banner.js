@@ -1,6 +1,7 @@
+import { Container, Row } from "react-bootstrap";
+
 const Banner = ({message}) => {
   return (
-
       <Container fluid>
           <Row>
           <div className="flex-col flex">
