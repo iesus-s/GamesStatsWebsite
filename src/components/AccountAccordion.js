@@ -1,10 +1,13 @@
 import AccordionItem1 from "./AccordionItem1"
+import AccordionItem2 from "./AccordionItem2"
 
 const AccountAccordion = () => {
   return (
-    <div class="user_settings container-fluid">
-      <div class="accordion" id="accordionExample">
+    <div className="user_settings container-fluid">
+      <div className="accordion" id="accordionExample">
         <AccordionItem1 />
+        <AccordionItem2 />
+
       </div>
     </div>
 
