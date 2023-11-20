@@ -1,3 +1,80 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+.nav {
+  background-color: #0A0F0D;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.footer {
+  background-color: #0A0F0D;
+  color: #A18276;
+  font-size: 11px;
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: #A18276;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li:hover {
+  background-color: #FBF5F3;
+}
+
+.nav li.active {
+  background-color: #7B0828;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+:root {
+  background-color: #FBF5F3;
+}
+
+.email {
+  margin-top: 1rem;
+}
+
+.mail {
+  margin-top: 1rem;
+}
+
+.phone {
+  margin-top: 1rem;
+}
+
