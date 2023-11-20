@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import HomePage from "./components/HomePage";
+import HomePage from "./pages/HomePage";
 import Login from "./pages/Login";
 import NavBar from "./components/NavBar";
 import ApexLegends from "./components/ApexLegends"
