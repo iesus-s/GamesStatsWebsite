@@ -62,6 +62,47 @@ body {
   /* 2 */
 }
 
+.nav {
+  background-color: #0A0F0D;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: #A18276;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li:hover {
+  background-color: #FBF5F3;
+}
+
+.nav li.active {
+  background-color: #7B0828;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+:root {
+  background-color: #FBF5F3;
+}
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
