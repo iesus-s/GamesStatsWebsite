@@ -62,47 +62,6 @@ body {
   /* 2 */
 }
 
-.nav {
-  background-color: #0A0F0D;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 2rem;
-  padding: 0 1rem;
-}
-
-.nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.nav a {
-  color: #A18276;
-  text-decoration: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: .25rem;
-}
-
-.nav li:hover {
-  background-color: #FBF5F3;
-}
-
-.nav li.active {
-  background-color: #7B0828;
-}
-
-.site-title {
-  font-size: 2rem;
-}
-
-:root {
-  background-color: #FBF5F3;
-}
 /*
 1. Add the correct height in Firefox.
 2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
@@ -1401,10 +1360,6 @@ input:checked + .toggle-bg {
   margin-bottom: 20rem;
 }
 
-.me-5 {
-  margin-inline-end: 1.25rem;
-}
-
 .me-auto {
   margin-inline-end: auto;
 }
@@ -1445,10 +1400,6 @@ input:checked + .toggle-bg {
   margin-right: 0.75rem;
 }
 
-.ms-auto {
-  margin-inline-start: auto;
-}
-
 .mt-1 {
   margin-top: 0.25rem;
 }
@@ -1467,10 +1418,6 @@ input:checked + .toggle-bg {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .mt-6 {
@@ -1888,10 +1835,6 @@ input:checked + .toggle-bg {
   list-style-type: none;
 }
 
-.list-disc {
-  list-style-type: disc;
-}
-
 .appearance-none {
   -webkit-appearance: none;
           appearance: none;
@@ -1959,10 +1902,6 @@ input:checked + .toggle-bg {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .-space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -2147,11 +2086,6 @@ input:checked + .toggle-bg {
   border-top-right-radius: 0.5rem;
 }
 
-.rounded-t-xl {
-  border-top-left-radius: 0.75rem;
-  border-top-right-radius: 0.75rem;
-}
-
 .border {
   border-width: 1px;
 }
@@ -2194,10 +2128,6 @@ input:checked + .toggle-bg {
 
 .border-t-4 {
   border-top-width: 4px;
-}
-
-.border-t-0 {
-  border-top-width: 0px;
 }
 
 .border-blue-600 {
@@ -2822,6 +2752,10 @@ input:checked + .toggle-bg {
   --tw-gradient-to: #D61F69 var(--tw-gradient-to-position);
 }
 
+.to-pink-950 {
+  --tw-gradient-to: #500724 var(--tw-gradient-to-position);
+}
+
 .to-purple-700 {
   --tw-gradient-to: #6C2BD9 var(--tw-gradient-to-position);
 }
@@ -3079,10 +3013,6 @@ input:checked + .toggle-bg {
   padding-top: 1.25rem;
 }
 
-.ps-5 {
-  padding-inline-start: 1.25rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -3093,10 +3023,6 @@ input:checked + .toggle-bg {
 
 .align-baseline {
   vertical-align: baseline;
-}
-
-.align-top {
-  vertical-align: top;
 }
 
 .align-text-top {
@@ -3670,6 +3596,82 @@ input:checked + .toggle-bg {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+body {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+.nav {
+  background-color: #0A0F0D;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.footer {
+  background-color: #0A0F0D;
+  color: #A18276;
+  font-size: 11px;
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: #A18276;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li:hover {
+  background-color: #FBF5F3;
+}
+
+.nav li.active {
+  background-color: #7B0828;
+}
+
+.site-title {
+  font-size: 2rem;
+}
+
+:root {
+  background-color: #FBF5F3;
+}
+
+.email {
+  margin-top: 1rem;
+}
+
+.mail {
+  margin-top: 1rem;
+}
+
+.phone {
+  margin-top: 1rem;
 }
 
 .after\:absolute::after {
@@ -4540,10 +4542,6 @@ input:checked + .toggle-bg {
 .peer:focus ~ .peer-focus\:text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(28 100 242 / var(--tw-text-opacity));
-}
-
-:is([dir="rtl"] .rtl\:text-right) {
-  text-align: right;
 }
 
 :is(.dark .dark\:divide-gray-700) > :not([hidden]) ~ :not([hidden]) {
@@ -5509,7 +5507,6 @@ input:checked + .toggle-bg {
 :is(.dark .dark\:focus\:ring-teal-800:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(5 80 92 / var(--tw-ring-opacity));
-
 }
 
 :is(.dark .dark\:focus\:ring-yellow-400:focus) {
@@ -5560,7 +5557,6 @@ input:checked + .toggle-bg {
 :is(.dark .dark\:enabled\:hover\:border-pink-700:hover:enabled) {
   --tw-border-opacity: 1;
   border-color: rgb(191 18 93 / var(--tw-border-opacity));
-
 }
 
 :is(.dark .dark\:enabled\:hover\:border-red-700:hover:enabled) {
@@ -5925,3 +5921,4 @@ input:checked + .toggle-bg {
 .\[\&\>\*\]\:last\:border-b-0:last-child>* {
   border-bottom-width: 0px;
 }
+

@@ -6,8 +6,8 @@ class Footer extends Component {
         return (
             <Container fluid>
                 <Row>
-                    <div className="flex-col flex fixed-bottom">
-                        <footer className="p-4 bg-dark text-white text-center">
+                    <div className="footer">
+                        <footer className="footer">
                             <p className="lead">Copyright &copy; 2023 Game Page Name</p>
                         </footer>
                     </div>
