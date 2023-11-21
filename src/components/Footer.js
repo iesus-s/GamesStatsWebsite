@@ -6,11 +6,9 @@ class Footer extends Component {
         return (
             <Container fluid>
                 <Row>
-                    <div className="footer">
-                        <footer className="footer">
-                            <p className="lead">Copyright &copy; 2023 Game Page Name</p>
-                        </footer>
-                    </div>
+                    <footer className="footer">
+                        <p className="lead">Copyright &copy; 2023 Game Page Name</p>
+                    </footer>
                 </Row>
             </Container>
         );

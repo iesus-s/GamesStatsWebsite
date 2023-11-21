@@ -5629,7 +5629,7 @@ input:checked + .toggle-bg {
 :is(.dark .dark\:focus\:ring-purple-900:focus) {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(74 29 150 / var(--tw-ring-opacity));
-
+}
 .ml-0 {
   margin-left: 0px;
 }

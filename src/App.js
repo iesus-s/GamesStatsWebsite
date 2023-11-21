@@ -17,7 +17,7 @@ function App() {
   return (
       <>
         <NavBar />
-            <div className="container">
+            <div className="container-fluid">
                 <Routes>
                     <Route path="/homepage" element={<HomePage />} />
                     <Route path="/games" element={<ApexLegends />} />

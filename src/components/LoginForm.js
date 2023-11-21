@@ -4,15 +4,17 @@ import LoginButton from "./LoginButton"
 import RememberLogin from "./RememberLogin"
 import SignUpButton from "./SignUpButton"
 import {Container, Row} from "react-bootstrap";
+import React from "react";
 
 const LoginForm = () => {
   return (
     // <!--Sign In-->
       <Container fluid>
+      <div className="w-25 p-5"></div>
         <Row>
-            <section id="sign-in">
+            <div className="login_form">
                 <div className="container flex flex-col mx-auto">
-                    <div className="flex flex-col mb-16 mx-auto space-y-12">
+                    <div className="flex flex-col mb-16 mx-auto">
                         <h1 className="max-w-md text-4xl font-bold text-center">
                             Sign in to Frag Pulse
                         </h1>
@@ -25,15 +27,11 @@ const LoginForm = () => {
                         </div>
                         <LoginButton />
                         <div className="max-w-sm mx-auto">
-                          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
                         </div>
                         <SignUpButton />
                     </form>
-                    <p className="text-center text-gray-500 text-xs">
-                        &copy;2023 FragPulse. All rights reserved.
-                    </p>
                 </div>
-            </section>
+            </div>
         </Row>
       </Container>
   )
