@@ -12,6 +12,7 @@ import AboutUsPage from "./components/AboutUsPage";
 import AdsPage from "./components/AdsPage";
 import Account from "./pages/Account"
 import {Route, Routes} from "react-router-dom";
+import Apex from "./pages/Apex";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
             <div className="container">
                 <Routes>
                     <Route path="/homepage" element={<HomePage />} />
-                    <Route path="/games" element={<ApexLegends />} />
+                    <Route path="/games" element={<Apex />} />
                     <Route path="/support" element={<SupportPage />} />
                     <Route path="/aboutus" element={<AboutUsPage />} />
                     <Route path="/Ads" element={<AdsPage />} />

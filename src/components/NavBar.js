@@ -17,7 +17,7 @@ export default class NavBar extends Component {
                             <Link to="/homepage">Home</Link>
                         </li>
                         <li>
-                            <Link to="/apexlegends">Games</Link>
+                            <Link to="/games">Games</Link>
                         </li>
                         <li>
                             <Link to="/support">Support Page</Link>
