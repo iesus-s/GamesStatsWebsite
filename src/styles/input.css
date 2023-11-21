@@ -102,3 +102,8 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.new_user {
+  font-family: "Lucida Console", "Courier New", monospace;
+  align-items: center;
+}
