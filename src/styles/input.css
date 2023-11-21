@@ -26,6 +26,7 @@ body {
   display: block;
   text-align: center;
   vertical-align: bottom;
+  margin:fixed-bottom;
 }
 
 .logo {
