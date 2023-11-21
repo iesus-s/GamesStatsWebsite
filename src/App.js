@@ -12,6 +12,7 @@ import AboutUsPage from "./components/AboutUsPage";
 import AdsPage from "./components/AdsPage";
 import Account from "./pages/Account"
 import {Route, Routes} from "react-router-dom";
+import CreateAccount from "./components/CreateAccount";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
                     <Route path="/Ads" element={<AdsPage />} />
                     <Route path="/account" element={<Account />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/CreateAccount" element={<CreateAccount />} />
                 </Routes>
             </div>
           <Footer />
