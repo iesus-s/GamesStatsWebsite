@@ -3,13 +3,14 @@ import { Link } from "react-router-dom"
 
 import LogInStatus from "./LogInStatus";
 import LoginForm from "./LoginForm";
-import {Navbar, Container, Nav, NavDropdown, Row, Image} from 'react-bootstrap'
+import {Navbar, Container, Nav, NavDropdown, Row, Image, CardImg} from 'react-bootstrap'
 
 export default class NavBar extends Component {
     render() {
         return (
             <Container fluid className="contain">
                 <nav className="nav">
+                    <img className="logo" alt="FragPulse" src={require("../images/logo.jpg")}/>
                     <Link to="/homepage" className="site-title">FragPulse</Link>
                     <ul>
                         <li>

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Container, Row, Col, Form, Button, Card } from "react-bootstrap";
+import {Container, Row, Col, Form, Button, Card, CardImg} from "react-bootstrap";
 document.body.style.backgroundColor = "#FBF5F3";
 
 function SupportPage () {
@@ -13,8 +13,8 @@ function SupportPage () {
               <div className="w-25 p-3"></div>
                 <Row className="space-x-3 justify-content-lg-center">
                   <Card  className="shadow-sm" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
+                    <CardImg className="email" src={require("../images/email_support.png")}/>
+                    <Card.Body className="email_text">
                       <Card.Title>Mail Support</Card.Title>
                       <Card.Text>
                         Some quick example text to build on the card title and make up the
@@ -24,8 +24,8 @@ function SupportPage () {
                     </Card.Body>
                   </Card>
                   <Card className="shadow-sm" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
+                    <CardImg className="phone" src={require("../images/phone_support.jpg")}/>
+                    <Card.Body className="phone_text">
                       <Card.Title>Phone Support</Card.Title>
                       <Card.Text>
                         Some quick example text to build on the card title and make up the
@@ -35,8 +35,8 @@ function SupportPage () {
                     </Card.Body>
                   </Card>
                   <Card className="shadow-sm" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
-                    <Card.Body>
+                    <CardImg className="mail" src={require("../images/mail_support.jpg")}/>
+                    <Card.Body className="mail_text">
                       <Card.Title>Email Support</Card.Title>
                       <Card.Text>
                         Some quick example text to build on the card title and make up the
@@ -74,6 +74,7 @@ function SupportPage () {
                       </Form>
                     </Col>
                   </Row>
+              <div className="w-25 p-3"></div>
             </Container>
         );
 }
