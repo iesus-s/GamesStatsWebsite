@@ -10,7 +10,7 @@ function SupportPage () {
     }
         return (
             <Container fluid>
-              <div className="w-25 p-3"></div>
+              <div className="w-25 p-5"></div>
                 <Row className="space-x-3 justify-content-lg-center">
                   <Card  className="shadow-sm" style={{ width: '18rem' }}>
                     <CardImg className="email" src={require("../images/email_support.png")}/>

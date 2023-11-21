@@ -9,9 +9,11 @@ export default class NavBar extends Component {
     render() {
         return (
             <Container fluid className="contain">
-                <nav className="nav">
-                    <img className="logo" alt="FragPulse" src={require("../images/logo.jpg")}/>
-                    <Link to="/homepage" className="site-title">FragPulse</Link>
+                <nav className="nav fixed-top">
+                    <ul>
+                        <img className="logo" alt="FragPulse" src={require("../images/logo.jpg")}/>
+                        <Link to="/homepage" className="site-title">FragPulse</Link>
+                    </ul>
                     <ul>
                         <li>
                             <Link to="/homepage">Home</Link>
