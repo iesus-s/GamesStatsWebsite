@@ -17,7 +17,8 @@ import Apex from "./pages/Apex";
 
 import CreateAccount from "./components/CreateAccount";
 import Friends from "./components/Friends";
-import CSGO from "./components/CSGO"
+import CSGO from "./pages/CSGO";
+import VALO from "./pages/VALO";
 
 
 function App() {
@@ -29,7 +30,7 @@ function App() {
                     <Route path="/homepage" element={<HomePage />} />
                     <Route path="/apex" element={<Apex />} />
                     <Route path="/csgo" element={<CSGO />} />
-                    <Route path="/valorant" element={<Valorant />} />
+                    <Route path="/valorant" element={<VALO />} />
                     <Route path="/support" element={<SupportPage />} />
                     <Route path="/friends" element={<Friends />} />
                     <Route path="/Ads" element={<AdsPage />} />
