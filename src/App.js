@@ -12,21 +12,30 @@ import AboutUsPage from "./components/AboutUsPage";
 import AdsPage from "./components/AdsPage";
 import Account from "./pages/Account"
 import {Route, Routes} from "react-router-dom";
+
 import Apex from "./pages/Apex";
+
+import CreateAccount from "./components/CreateAccount";
+import Friends from "./components/Friends";
+import CSGO from "./components/CSGO"
+
 
 function App() {
   return (
       <>
         <NavBar />
-            <div className="container">
+            <div className="container-fluid">
                 <Routes>
                     <Route path="/homepage" element={<HomePage />} />
-                    <Route path="/games" element={<Apex />} />
+                    <Route path="/apex" element={<Apex />} />
+                    <Route path="/csgo" element={<CSGO />} />
+                    <Route path="/valorant" element={<Valorant />} />
                     <Route path="/support" element={<SupportPage />} />
-                    <Route path="/aboutus" element={<AboutUsPage />} />
+                    <Route path="/friends" element={<Friends />} />
                     <Route path="/Ads" element={<AdsPage />} />
                     <Route path="/account" element={<Account />} />
                     <Route path="/login" element={<Login />} />
+                    <Route path="/CreateAccount" element={<CreateAccount />} />
                 </Routes>
             </div>
           <Footer />

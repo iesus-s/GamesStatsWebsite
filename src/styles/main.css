@@ -5630,7 +5630,6 @@ input:checked + .toggle-bg {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(74 29 150 / var(--tw-ring-opacity));
 }
-
 .ml-0 {
   margin-left: 0px;
 }
