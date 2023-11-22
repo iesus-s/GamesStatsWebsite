@@ -13,6 +13,7 @@ import AdsPage from "./components/AdsPage";
 import Account from "./pages/Account"
 import {Route, Routes} from "react-router-dom";
 import CreateAccount from "./components/CreateAccount";
+import Friends from "./components/Friends";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
                     <Route path="/homepage" element={<HomePage />} />
                     <Route path="/games" element={<ApexLegends />} />
                     <Route path="/support" element={<SupportPage />} />
-                    <Route path="/aboutus" element={<AboutUsPage />} />
+                    <Route path="/friends" element={<Friends />} />
                     <Route path="/Ads" element={<AdsPage />} />
                     <Route path="/account" element={<Account />} />
                     <Route path="/login" element={<Login />} />

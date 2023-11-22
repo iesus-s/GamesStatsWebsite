@@ -25,7 +25,7 @@ export default class NavBar extends Component {
                             <Link to="/support">Support Page</Link>
                         </li>
                         <li>
-                            <Link to="/aboutus">About Us</Link>
+                            <Link to="/friends">Friends</Link>
                         </li>
                         <li>
                             <Link to="/ads">Ads</Link>
