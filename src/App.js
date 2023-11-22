@@ -10,6 +10,7 @@ import Valorant from "./components/Valorant";
 import SupportPage from "./components/SupportPage";
 import AboutUsPage from "./components/AboutUsPage";
 import AdsPage from "./components/AdsPage";
+import Friends from "./components/Friends";
 
 const App = () => {
     let Component
@@ -40,6 +41,8 @@ const App = () => {
             break;
         case "/loginform":
             Component = <LoginForm />
+        case "/friends":
+            Component = <Friends />
     }
   return (
         <div className="App container-fluid">
