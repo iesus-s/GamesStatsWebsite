@@ -1,7 +1,7 @@
 const ApexSC = () => {
   return (
     
-        //<!--Showcase The begining part of the website-->
+        
     <section id="learn" className="bg-dark text-light p-5 text-center text-sm-start">
     <div className="container">
         <div className="d-sm-flex align-item-center justify-content-between">

@@ -5,6 +5,8 @@ import ApexLSOne from "../components/ApexLSOne"
 import ApexLSTwo from "../components/ApexLSTwo"
 import ApexLSThree from "../components/ApexLSThree"
 import ApexFAQ from "../components/ApexFAQ"
+import ApexPP from "../components/ApexPP"
+
 
 const Apex = () => {
   return (
@@ -16,6 +18,9 @@ const Apex = () => {
         <ApexLSTwo />
         <ApexLSThree />
         <ApexFAQ />
+        <ApexPP />
+
+        
     </div>
   )
 }
