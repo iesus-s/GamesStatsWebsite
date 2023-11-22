@@ -19,7 +19,13 @@ export default class NavBar extends Component {
                             <Link to="/homepage">Home</Link>
                         </li>
                         <li>
-                            <Link to="/apexlegends">Games</Link>
+                            <Link to="/apexlegends">Apex Legends</Link>
+                        </li>
+                        <li>
+                            <Link to="/csgo">CSGO</Link>
+                        </li>
+                        <li>
+                            <Link to="/valorant">Valorant</Link>
                         </li>
                         <li>
                             <Link to="/support">Support Page</Link>

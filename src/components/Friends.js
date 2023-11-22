@@ -135,12 +135,9 @@ const Friends = () => {
                                 <div>
                                     MVP: Ashrafi
                                 </div>
-                                <div>Champion:
-                                <div className="relative">
-                                <img src={require("../images/mail_support.jpg")}className="absolute inset-y-0 bottom-0" alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-
-                                </div>
-                                </div>
+                                <Col>Champion:
+                                <img src={require("../images/mail_support.jpg")} className="champion_image" alt={"playerIcon.png"}></img>
+                                </Col>
                           </div>
                       </Col>
                       <Col>
