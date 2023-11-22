@@ -14,6 +14,7 @@ import Account from "./pages/Account"
 import {Route, Routes} from "react-router-dom";
 import CreateAccount from "./components/CreateAccount";
 import Friends from "./components/Friends";
+import CSGO from "./components/CSGO"
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
             <div className="container-fluid">
                 <Routes>
                     <Route path="/homepage" element={<HomePage />} />
-                    <Route path="/games" element={<ApexLegends />} />
+                    <Route path="/apexlegends" element={<ApexLegends />} />
+                    <Route path="/csgo" element={<CSGO />} />
+                    <Route path="/valorant" element={<Valorant />} />
                     <Route path="/support" element={<SupportPage />} />
                     <Route path="/friends" element={<Friends />} />
                     <Route path="/Ads" element={<AdsPage />} />

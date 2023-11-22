@@ -4,7 +4,7 @@ import LoginButton from "./LoginButton"
 import FirstNameLastName from "./FirstLastName"
 import RememberLogin from "./RememberLogin"
 import SignUpButton from "./SignUpButton"
-import {Container, Row} from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import React, {Component} from 'react';
 import FirstLastName from "./FirstLastName";
 import NewUser from "./NewUser";

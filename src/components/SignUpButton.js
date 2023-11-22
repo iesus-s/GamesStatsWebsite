@@ -12,7 +12,7 @@ const SignUpButton = ({label}) => {
 }
 
 SignUpButton.defaultProps = {
-    label: 'Sign Up'
+    label: 'Create Account'
 }
 
 export default SignUpButton
