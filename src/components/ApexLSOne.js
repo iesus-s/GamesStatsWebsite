@@ -6,7 +6,7 @@ const ApexLSOne = () => {
           <div className="row align-items-center justify-content-between">
             
             <div className="col-md">
-              <img src={require("../images/WraithPic.jpg")} className="img-fluid" alt="">
+              <img src={require("../images/WraithPic.jpg")} className="img-fluid" alt=""/>
             </div>
         
             <div className="col-md">
@@ -15,7 +15,7 @@ const ApexLSOne = () => {
                 <h2>Wraith</h2>
                 Stay Mobile: Constantly move and reposition during engagements. Wraith's agility and small hitbox make her a challenging target.
                  Team Communication: Coordinate portal usage with your squad for strategic flanks or rapid escapes.
-                  Use "Into the Void" Wisely: Master the timing of Wraith's tactical ability to dodge enemy fire or initiate surprise attacks.</h4>
+                  Use "Into the Void" Wisely: Master the timing of Wraith's tactical ability to dodge enemy fire or initiate surprise attacks.
                 
               </p>
               <a href="#" className="btn btn-light mt-3">
