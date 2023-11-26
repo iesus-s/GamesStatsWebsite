@@ -119,7 +119,7 @@ const Friends = () => {
                             <img className="rounded-circle" src={require("../images/playericon.jpg")}/>
                         </div>
                         <div>
-                            Game Duration: 2 Hrs
+                            Game Duration: 1 Hr
                         </div>
                   </Col>
                   <Col>
@@ -203,28 +203,93 @@ const Friends = () => {
                 <Card.Title className="text-center">Game 2</Card.Title>
                 <Card.Text>
                 <Row>
-                  <Col xs={6} className="text-center">
-                        Inferno
-                        <img className="square bg-primary rounded-3" src={require("../images/infernoCSGO.jpg")}/>
+                  <Col xs={5} className="text-center">
+                        Dust 2
+                        <img className="square bg-primary rounded-3" src={require("../images/mirageCSGO.jpg")}/>
                   </Col>
                   <Col className="col-3">
                         K/D Ratio: 1.2
                         <div>
-                            MVP:
+                            MVP: Player Name
                         </div>
                         <div>
                             Best Weapon:
                             <img className="rounded-circle" src={require("../images/playericon.jpg")}/>
                         </div>
                         <div>
-                            Game Duration: 2 hrs 20 mins
+                            Game Duration: 1 Hrs 30 mins
                         </div>
                   </Col>
                   <Col>
                         Ally Team
+                        <Row>
+                            <Col>
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            </Col>
+                        </Row>
+
                   </Col>
-                  <Col>
+                  <Col className="fluid">
                         Enemy Team
+                        <Row>
+                            <Col>
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            </Col>
+                        </Row>
                   </Col>
 
                 </Row>
@@ -236,87 +301,89 @@ const Friends = () => {
                 <Card.Title className="text-center">Game 3</Card.Title>
                 <Card.Text>
                 <Row>
-                  <Col xs={6} className="text-center">
-                    Mirage
-                    <img className="square bg-primary rounded-3" src={require("../images/mirageCSGO.jpg")}/>
+                  <Col xs={5} className="text-center">
+                        Dust 2
+                        <img className="square bg-primary rounded-3" src={require("../images/infernoCSGO.jpg")}/>
                   </Col>
                   <Col className="col-3">
                         K/D Ratio: 1.2
                         <div>
-                            MVP:
-                            <img className="rounded-circle w-26 h-36" src={require("../images/playericon.jpg")}/>
+                            MVP: Player Name
                         </div>
                         <div>
                             Best Weapon:
-                            <img className="w-26 h-36" src={require("../images/csgoM4A4.png")}/>
+                            <img className="rounded-circle" src={require("../images/csgoM4A4.png")}/>
                         </div>
                         <div>
-                            Game Duration: 1hr 20 mins
+                            Game Duration: 2 Hrs
                         </div>
                   </Col>
-                  <Col className="text-center">
+                  <Col>
                         Ally Team
                         <Row>
+                            <Col>
                             Player 1
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             <Row>
                                 Player 2
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 3
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 4
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 5
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
+                            </Col>
                         </Row>
+
                   </Col>
-                  <Col xs={1} className="text-center">
+                  <Col className="fluid">
                         Enemy Team
                         <Row>
                             <Col>
                             Player 1
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             <Row>
                                 Player 2
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 3
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 4
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 5
                                 <Row>
-                                    <img className="rounded-circle w-auto h-12" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             </Col>
