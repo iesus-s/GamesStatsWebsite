@@ -28,6 +28,9 @@ const LoginForm = () => {
                         <LoginButton />
                         <div className="max-w-sm mx-auto">
                         </div>
+                        <div className="max-w-sm mx-auto">
+                            <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
+                        </div>
                         <SignUpButton />
                     </form>
                 </div>
