@@ -6,6 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Accordion from 'react-bootstrap/Accordion';
+
 const Friends = () => {
 
     return(
@@ -31,7 +32,7 @@ const Friends = () => {
 
                     </Col>
                     <Col>
-                        <img className="rounded-circle w-auto h-36" src={require("../images/playericon.jpg")}/>
+                        <img className="rounded-circle w-auto h-36" src={require("../images/lolPlayerIcon.webp")}/>
                     </Col>
                 </Row>
                 <div className="w-25 p-1"></div>
@@ -100,6 +101,7 @@ const Friends = () => {
             </Card>
         </Col>
         <Col xs={7}>
+
             <Card style={{ width: 'auto' }}>
             <Card.Body>
             <Card.Title className="text-center">Game 1</Card.Title>
@@ -116,7 +118,7 @@ const Friends = () => {
                         </div>
                         <div>
                             Best Weapon:
-                            <img className="rounded-circle" src={require("../images/playericon.jpg")}/>
+                            <img className="" src={require("../images/csgoDeagle.png")}/>
                         </div>
                         <div>
                             Game Duration: 1 Hr
@@ -128,24 +130,24 @@ const Friends = () => {
                             <Col>
                             Player 1
                                 <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                    <img className="w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             <Row>
                                 Player 2
                                 <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                    <img className=" w-auto h-8" src={require("../images/phone_support.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 3
                                 <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                    <img className=" w-auto h-8" src={require("../images/jesus.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 4
                                 <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                    <img className=" w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
@@ -193,7 +195,6 @@ const Friends = () => {
                             </Col>
                         </Row>
                   </Col>
-
                 </Row>
                 </Card.Text>
               </Card.Body>
@@ -204,17 +205,17 @@ const Friends = () => {
                 <Card.Text>
                 <Row>
                   <Col xs={5} className="text-center">
-                        Dust 2
+                        Mirage
                         <img className="square bg-primary rounded-3" src={require("../images/mirageCSGO.jpg")}/>
                   </Col>
                   <Col className="col-3">
-                        K/D Ratio: 1.2
+                        K/D Ratio: 0.5
                         <div>
                             MVP: Player Name
                         </div>
                         <div>
                             Best Weapon:
-                            <img className="rounded-circle" src={require("../images/playericon.jpg")}/>
+                            <img className="" src={require("../images/csgoAK47.png")}/>
                         </div>
                         <div>
                             Game Duration: 1 Hrs 30 mins
@@ -302,17 +303,17 @@ const Friends = () => {
                 <Card.Text>
                 <Row>
                   <Col xs={5} className="text-center">
-                        Dust 2
+                        Inferno
                         <img className="square bg-primary rounded-3" src={require("../images/infernoCSGO.jpg")}/>
                   </Col>
                   <Col className="col-3">
-                        K/D Ratio: 1.2
+                        K/D Ratio: 3.1
                         <div>
                             MVP: Player Name
                         </div>
                         <div>
                             Best Weapon:
-                            <img className="rounded-circle" src={require("../images/csgoM4A4.png")}/>
+                            <img className="" src={require("../images/csgoM4A4.png")}/>
                         </div>
                         <div>
                             Game Duration: 2 Hrs
@@ -395,6 +396,7 @@ const Friends = () => {
               </Card.Body>
             </Card>
         </Col>
+
         <Col>
             <div className="text-center">
                 <Card>
