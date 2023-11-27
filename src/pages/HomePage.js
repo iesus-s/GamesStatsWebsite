@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Container, Row, Col, Form, Button, Card, CardImg} from "react-bootstrap";
+import { Link } from "react-router-dom"
 
 class HomePage extends Component {
     render() {
@@ -30,15 +31,44 @@ class HomePage extends Component {
           </label>
           <div className="text-center pt-5">
 
-
             <Button variant="secondary" className=" sticky top-0 "> Search</Button>
 
             </div>
-
         </div>
 
       </div>
     </div>
+
+         <div className = "banner">
+          <div className="container text-center pt-5">
+              <div class="row align">
+                  <div class="col">
+                        <div className ="container pr-1.5" >
+                      <img src={require("../images/gamestats.png")} className="img-responsive  ml-20" alt={"game stats"} width={"450"} height={"50"}></img>
+                         </div>
+
+                  </div>
+
+                  <div className="col">
+
+                      <div className = "container text-left">
+                      <h1> Jump into the action!</h1>
+                      </div>
+
+                      <div className ="container text-left" >
+                      <p>Track and analyze your victories and defeats, climb the leaderboards. Elevate your gaming experience with real-time stats. Level up your play, even the playing field!</p>
+                      </div>
+
+
+
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
 
               <div className="w-25 p-5"></div>
                 <Row className="space-x-3 justify-content-lg-center">
@@ -56,7 +86,11 @@ class HomePage extends Component {
                         bulk of the card's content.
                       </Card.Text>
 
-                      <Button variant="primary">View Game Page</Button>
+
+                         <Link to="/CSGO">
+                            <Button variant="primary">View Game Page</Button>
+                          </Link>
+
                     </Card.Body>
                   </Card>
 
@@ -70,7 +104,14 @@ class HomePage extends Component {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                       </Card.Text>
-                      <Button variant="primary">View Game Page</Button>
+
+                            <Link to="/Apex">
+                            <Button variant="primary">View Game Page</Button>
+                            </Link>
+
+
+
+
                     </Card.Body>
                   </Card>
 
@@ -86,7 +127,11 @@ class HomePage extends Component {
                         Some quick example text to build on the card title and make up the
                         bulk of the card's content.
                       </Card.Text>
-                      <Button variant="primary">View Game Page</Button>
+
+                         <Link to="/VALO">
+                            <Button variant="primary">View Game Page</Button>
+                         </Link>
+
                     </Card.Body>
                   </Card>
                 </Row>
