@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom"
-
-import LogInStatus from "./LogInStatus";
-import LoginForm from "./LoginForm";
-import {Navbar, Container, Nav, NavDropdown, Row, Image, CardImg} from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
 
 export default class NavBar extends Component {
     render() {
@@ -35,6 +32,9 @@ export default class NavBar extends Component {
                         </li>
                         <li>
                             <Link to="/ads">Ads</Link>
+                        </li>
+                        <li>
+                            <Link to="/aboutus">About Us</Link>
                         </li>
                         <li>
                             <Link to="/account">Account</Link>
