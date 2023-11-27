@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from "./components/Footer";
 import CounterStrike from "./components/CounterStrike";
 import Valorant from "./components/Valorant";
-import SupportPage from "./components/SupportPage";
+import SupportPage from "./pages/SupportPage";
 import AboutUsPage from "./components/AboutUsPage";
 import AdsPage from "./components/AdsPage";
 import Account from "./pages/Account"
