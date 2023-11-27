@@ -19,7 +19,7 @@ const AboutUs = () => {
                   </div>
 
                   <div className="col">
-                        <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle rounded-lg" alt={"Company Photo"} width={"300"} height={"50"}></img>
+                        <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle rounded-lg" width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
                   </div>
 
                   <div className="col">
-                        <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " alt={"Member Photo"} width={"300"} height={"50"}></img>
+                        <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -77,7 +77,7 @@ const AboutUs = () => {
                   </div>
 
                      <div className="col">
-                       <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " alt={"Member Photo"} width={"300"} height={"50"}></img>
+                       <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -94,7 +94,7 @@ const AboutUs = () => {
                   </div>
 
                  <div className="col">
-                  <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " alt={"Member Photo"} width={"300"} height={"50"}></img>
+                  <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -111,7 +111,7 @@ const AboutUs = () => {
                   </div>
 
                 <div className="col ">
-                   <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " alt={"Member Photo"} width={"300"} height={"50"}></img>
+                   <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -129,7 +129,7 @@ const AboutUs = () => {
                   </div>
 
                 <div className="col">
-                  <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " alt={"Member Photo"} width={"300"} height={"50"}></img>
+                  <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
 
               </div>
