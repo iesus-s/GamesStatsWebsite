@@ -3,7 +3,6 @@ import {Row, Col, Container} from 'react-bootstrap'
 
 const Banner = ({message}) => {
   return (
-      <Container fluid>
         <Row>
             <Col>
                 <div className="banner_class">
@@ -17,7 +16,6 @@ const Banner = ({message}) => {
                 </div>
             </Col>
         </Row>
-      </Container>
   )
 }
 
