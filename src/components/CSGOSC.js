@@ -32,7 +32,15 @@ const CSGOSC = () => {
               Find out how!
             </button>
           </div>
-          <img src={require("../images/CSGOShowCase.png")} className="img-fluid w-50 d-none d-sm-block" alt="CS:GO Showcase"></img>
+          <iframe
+            title="CS:GO Showcase"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/k2vbZx2WPM8?autoplay=1&mute=1"
+            frameBorder="0"
+            allowFullScreen
+            className="img-fluid w-50 d-none d-sm-block"
+          ></iframe>
         </div>
       </div>
     </section>

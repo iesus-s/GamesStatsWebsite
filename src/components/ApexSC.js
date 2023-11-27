@@ -32,7 +32,15 @@ const ApexSC = () => {
               Find out how!
             </button>
           </div>
-          <img src={require("../images/ApexShowCase.jpg")} className="img-fluid w-50 d-none d-sm-block" alt="Apex Legends Showcase"></img>
+          <iframe
+            title="Apex Legends Showcase"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/m8awXISvVpo?autoplay=1&mute=1"
+            frameBorder="0"
+            allowFullScreen
+            className="img-fluid w-50 d-none d-sm-block"
+          ></iframe>
         </div>
       </div>
     </section>
