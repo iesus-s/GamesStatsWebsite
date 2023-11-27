@@ -102,7 +102,7 @@ const Friends = () => {
         </Col>
         <Col xs={7}>
 
-            <Card style={{ width: 'auto' }}>
+            <Card border="success" className="bg-success p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
             <Card.Body>
             <Card.Title className="text-center">Game 1</Card.Title>
                 <Card.Text>
@@ -127,27 +127,27 @@ const Friends = () => {
                   <Col>
                         Ally Team
                         <Row>
-                            <Col>
+
                             Player 1
                                 <Row>
-                                    <img className="w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             <Row>
                                 Player 2
                                 <Row>
-                                    <img className=" w-auto h-8" src={require("../images/phone_support.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/phone_support.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 3
                                 <Row>
-                                    <img className=" w-auto h-8" src={require("../images/jesus.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/jesus.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
                                 Player 4
                                 <Row>
-                                    <img className=" w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
                             <Row>
@@ -156,14 +156,13 @@ const Friends = () => {
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
-                            </Col>
+
                         </Row>
 
                   </Col>
-                  <Col className="fluid">
+                  <Col>
                         Enemy Team
                         <Row>
-                            <Col>
                             Player 1
                                 <Row>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
@@ -192,14 +191,13 @@ const Friends = () => {
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
-                            </Col>
                         </Row>
                   </Col>
                 </Row>
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card style={{ width: 'auto' }}>
+            <Card border="danger" className="bg-danger p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
               <Card.Body>
                 <Card.Title className="text-center">Game 2</Card.Title>
                 <Card.Text>
@@ -224,7 +222,6 @@ const Friends = () => {
                   <Col>
                         Ally Team
                         <Row>
-                            <Col>
                             Player 1
                                 <Row>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
@@ -253,14 +250,12 @@ const Friends = () => {
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
-                            </Col>
                         </Row>
 
                   </Col>
                   <Col className="fluid">
                         Enemy Team
                         <Row>
-                            <Col>
                             Player 1
                                 <Row>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
@@ -289,15 +284,13 @@ const Friends = () => {
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
-                            </Col>
                         </Row>
                   </Col>
-
                 </Row>
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card style={{ width: 'auto' }}>
+            <Card border="success" className="bg-success p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
               <Card.Body>
                 <Card.Title className="text-center">Game 3</Card.Title>
                 <Card.Text>
@@ -322,7 +315,6 @@ const Friends = () => {
                   <Col>
                         Ally Team
                         <Row>
-                            <Col>
                             Player 1
                                 <Row>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
@@ -351,14 +343,11 @@ const Friends = () => {
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
-                            </Col>
                         </Row>
-
                   </Col>
                   <Col className="fluid">
                         Enemy Team
                         <Row>
-                            <Col>
                             Player 1
                                 <Row>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
@@ -387,10 +376,8 @@ const Friends = () => {
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             </Row>
-                            </Col>
                         </Row>
                   </Col>
-
                 </Row>
                 </Card.Text>
               </Card.Body>
