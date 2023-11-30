@@ -9,479 +9,390 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const Friends = () => {
 
-    const mutualFriendPFP={
-    float:'right'
-    }
     return(
-<Row>
-    <Col>
-
-        <div>
-                <Card style={{ width: '20rem' }}>
-
-                  <Card.Body className="px-10">
-                    <Card.Title >Louie
-                    <div>
-                    <img src={require("../images/playerIcon.png")}className="img-responsive img-circle" alt={"primary.png"} width={"32"} height={"32"}>
-                                </img>
-                    </div>
-                    </Card.Title>
-                    <div className="absolute right-0 top-0">
-                            <ul>
-                                <li>
-                                K/D Ratio
-                                <div>
-                                1.20
-                                </div>
-                                </li>
-
-                                <li>
-                                W/L Ratio
-                                <div>
-                                0.5
-                                </div>
-                                </li>
-
-                                <li>
-                                Recently Played
-                                <div>
-                                <img src={require("../images/playericon.jpg")}className="img-responsive img-circle" alt={"primary.png"} width={"32"} height={"32"}>
-                                </img>
-                                </div>
-                                </li>
-                                </ul>
-
-
-                    </div>
-                    <Col>
-                    <div >
-                        Current Rank
-                        <img src={require("../images/seasonHistory2.webp")}className="img-responsive img-circle" alt={"primary.png"} width={"32"} height={"32"}>
-                                </img>
-                    </div>
-                    </Col>
-                  </Card.Body>
-                </Card>
-        </div>
-        <Row>
-        <div>
-            <Card>
-                <div className="h-32 w-32 text-center">
-                    Season Ranking
-                    <div>
-                        <ul>
-
-                            <li>
-                                Season 1
-                                <img src={require("../images/seasonHistory1.webp")}className="img-responsive img-circle" alt={"playerIcon.png"} width={"12"} height={"12"}></img>
-                            </li>
-                            <li>
-
-                                Season 2
-                                <img src={require("../images/seasonHistory1.webp")}className="img-responsive img-circle" alt={"playerIcon.png"} width={"12"} height={"12"}></img>
-
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </Card>
-
-            <Card >
-                <div className="h-32 w-32 text-center">
-                    Mutual Friends
-                    <div>
-
-                                Teh
-                                <div style={mutualFriendPFP}>
-                                <img src={require("../images/seasonHistory1.webp")} alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-                                </div>
-                                <div style={mutualFriendPFP}>
-                                <img src={require("../images/seasonHistory1.webp")} alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-                                Yamada
-                                </div>
-                                <div style={mutualFriendPFP}>
-                                <img src={require("../images/seasonHistory1.webp")} alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-                                Arnold
-                            </div>
-                    </div>
-                </div>
-            </Card>
-        </div>
-    </Row>
-    </Col>
-
-
-    <Col>
-            <div style={{width: '60rem'}}>
-                    <ListGroup className="text-center">
-
-                      <ListGroup.Item variant="success">
-                      <Row>
-                      <h4>
-                      Game 1
-                      </h4>
-                      <Col>
-                          <div className="">
-                                K/D = 0.69
-                                <div>
-                                <img src={require("../images/mutualFriendsPlayerIcon.png")}className="absolute top-0" alt={"primary.png"} width={"150"} height={"150"}>
-                                </img>
-
-                                </div>
-                                <div className="absolute left-32 bottom-0">
-                                Dust 2 Remake
-                                </div>
-                                <div>
-                                    MVP: Ashrafi
-                                </div>
-                                <Col>Champion:
-                                <img src={require("../images/mail_support.jpg")} className="champion_image" alt={"playerIcon.png"}></img>
-                                </Col>
-                          </div>
-                      </Col>
-                      <Col>
-                      <Row>
-                        <Col>
-                            <div>
-                                Ally Team
-                                <div>
-
-                                        1. Dogan
-                                        <div>
-                                        2. Ashrafi
-                                        </div>
-                                        <div>
-                                        3. Alimohammad
-                                        </div>
-
-                                </div>
-                            </div>
-                        </Col>
-
-                        <Col>
-                            <div>
-                                Enemy Team
-                                <div>
-                                    1. Dorr
-                                    <div>
-                                    2. Paolini
-                                    </div>
-                                    <div>
-                                    3. Aksanli
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                      </Row>
-                      </Col>
-                        <div className="fst-italic">
-                            Game Duration: 5 hours
-                        </div>
-                        </Row>
-                      </ListGroup.Item>
-
-                      <ListGroup.Item variant="success">
-                      <Row>
-                      <h4>
-                      Game 2
-                      </h4>
-                      <Col>
-                          <div className="">
-                                K/D = 1.29
-                                <div>
-                                <img src={require("../images/mutualFriendsPlayerIcon.png")}className="absolute top-0" alt={"primary.png"} width={"150"} height={"150"}>
-                                </img>
-
-                                </div>
-                                <div className="absolute left-32 bottom-0">
-                                Dust 3 Remake
-                                </div>
-                                <div>
-                                    MVP: Teh
-                                </div>
-                                <div>Champion:
-                                <div className="relative">
-                                <img src={require("../images/mail_support.jpg")}className="absolute inset-y-0 bottom-0" alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-
-                                </div>
-                                </div>
-                          </div>
-                      </Col>
-                      <Col>
-                      <Row>
-                        <Col>
-                            <div>
-                                Ally Team
-                                <div>
-
-                                        1. Teh
-                                        <div>
-                                        2. Ashrafi
-                                        </div>
-                                        <div>
-                                        3. Sabzigar
-                                        </div>
-
-                                </div>
-                            </div>
-                        </Col>
-
-                        <Col>
-                            <div>
-                                Enemy Team
-                                <div>
-                                    1. Thomas
-                                    <div>
-                                    2. Xie
-                                    </div>
-                                    <div>
-                                    3. Kumar
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                      </Row>
-                      </Col>
-                        <div className="fst-italic">
-                            Game Duration: 1 hours
-                        </div>
-                        </Row>
-                      </ListGroup.Item>
-                      <ListGroup.Item variant="danger">
-                      <Row>
-                      <h4>
-                      Game 3
-                      </h4>
-                      <Col>
-                          <div className="">
-                                K/D = 0.4
-                                <div>
-                                <img src={require("../images/mutualFriendsPlayerIcon.png")}className="absolute top-0" alt={"primary.png"} width={"150"} height={"150"}>
-                                </img>
-
-                                </div>
-                                <div className="absolute left-32 bottom-0">
-                                Mirage 2 Remake
-                                </div>
-                                <div>
-                                    MVP: Lana
-                                </div>
-                                <div>Champion:
-                                <div className="relative">
-                                <img src={require("../images/mail_support.jpg")}className="absolute inset-y-0 bottom-0" alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-
-                                </div>
-                                </div>
-                          </div>
-                      </Col>
-                      <Col>
-                      <Row>
-                        <Col>
-                            <div>
-                                Ally Team
-                                <div>
-
-                                        1. Tito
-                                        <div>
-                                        2. Yamada
-                                        </div>
-                                        <div>
-                                        3. Lana
-                                        </div>
-
-                                </div>
-                            </div>
-                        </Col>
-
-                        <Col>
-                            <div>
-                                Enemy Team
-                                <div>
-                                    1. Bahavana
-                                    <div>
-                                    2. Chris
-                                    </div>
-                                    <div>
-                                    3. David
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                      </Row>
-                      </Col>
-                        <div className="fst-italic">
-                            Game Duration: 2.5 hours
-                        </div>
-                        </Row>
-                      </ListGroup.Item>
-                      <ListGroup.Item variant="danger">
-                      <Row>
-                      <h4>
-                      Game 4
-                      </h4>
-                      <Col>
-                          <div className="">
-                                K/D = 1.7
-                                <div>
-                                <img src={require("../images/mutualFriendsPlayerIcon.png")}className="absolute top-0" alt={"primary.png"} width={"150"} height={"150"}>
-                                </img>
-
-                                </div>
-                                <div className="absolute left-32 bottom-0">
-                                Skyline Remake
-                                </div>
-                                <div>
-                                    MVP: Dogan
-                                </div>
-                                <div>Champion:
-                                <div className="relative">
-                                <img src={require("../images/mail_support.jpg")}className="absolute inset-y-0 bottom-0" alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-
-                                </div>
-                                </div>
-                          </div>
-                      </Col>
-                      <Col>
-                      <Row>
-                        <Col>
-                            <div>
-                                Ally Team
-                                <div>
-
-                                        1. Dogan
-                                        <div>
-                                        2. Ashrafi
-                                        </div>
-                                        <div>
-                                        3. Alimohammad
-                                        </div>
-
-                                </div>
-                            </div>
-                        </Col>
-
-                        <Col>
-                            <div>
-                                Enemy Team
-                                <div>
-                                    1. Dorr
-                                    <div>
-                                    2. Paolini
-                                    </div>
-                                    <div>
-                                    3. Aksanli
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                      </Row>
-                      </Col>
-                        <div className="fst-italic">
-                            Game Duration: 7 hours
-                        </div>
-                        </Row>
-                      </ListGroup.Item>
-
-
-                          <ListGroup.Item variant="success">
-                              <Row>
-                      <h4>
-                      Game 5
-                      </h4>
-                      <Col>
-                          <div className="">
-                                K/D = 2.3
-                                <div>
-                                <img src={require("../images/mutualFriendsPlayerIcon.png")}className="absolute top-0" alt={"primary.png"} width={"150"} height={"150"}>
-                                </img>
-
-                                </div>
-                                <div className="absolute left-32 bottom-0">
-                                Inferno Remake
-                                </div>
-                                <div>
-                                    MVP: Maroue
-                                </div>
-                                <div>Champion:
-                                <div className="relative">
-                                <img src={require("../images/mail_support.jpg")}className="absolute inset-y-0 bottom-0" alt={"playerIcon.png"} width={"24"} height={"24"}></img>
-
-                                </div>
-                                </div>
-                          </div>
-                      </Col>
-                      <Col>
-                      <Row>
-                        <Col>
-                            <div>
-                                Ally Team
-                                <div>
-
-                                        1. Maroue
-                                        <div>
-                                        2. Mark
-                                        </div>
-                                        <div>
-                                        3. Mustafa
-                                        </div>
-
-                                </div>
-                            </div>
-                        </Col>
-
-                        <Col>
-                            <div>
-                                Enemy Team
-                                <div>
-                                    1. Schaffer
-                                    <div>
-                                    2. Paolini
-                                    </div>
-                                    <div>
-                                    3. Aksanli
-                                    </div>
-                                </div>
-                            </div>
-                        </Col>
-                      </Row>
-                      </Col>
-                        <div className="fst-italic">
-                            Game Duration: 3.75 hours
-                        </div>
-                        </Row>
-                          </ListGroup.Item>
-
-                    </ListGroup>
-            </div>
-
-
-    </Col>
-    <Col className="col-span-2">
-        <div className="absolute w-36 left-15">
-            <Card className="text-center">
-                <div className="h-96 text-center">
-
-                </div>
-            </Card>
-        </div>
-    </Col>
-
+<div>
+<div className="w-25 p-1"></div>
     <Row>
         <Col>
-        <div className="w-25 p-5"></div>
-        <div>
-            <Card>
-                <div className="h-12 w-12 text-center">
-                    ads
-                </div>
+            <Card style={{ width: 'auto' }}>
+              <Card.Body>
+                <Row>
+                    <Col>
+                        <Card.Title>Player Name</Card.Title>
+                        <Card.Text>
+                          Current Rank
+                          <img className="h-auto w-24" src={require("../images/csgoGoldNovaRank.png")}/>
+                        </Card.Text>
+                        <Card.Text>
+                            K/D Ratio 3.9
+                        </Card.Text>
+                        <Card.Text>
+                            W/L Ratio 1.2
+                        </Card.Text>
+
+                    </Col>
+                    <Col>
+                        <img className="rounded-circle w-auto h-36" src={require("../images/lolPlayerIcon.webp")}/>
+                    </Col>
+                </Row>
+                <div className="w-25 p-1"></div>
+                <Row className="text-center">
+                    <Card.Text>
+                            Recently Played: Dust 2
+                            <Row>
+                                <img className="w-auto h-auto" src={require("../images/csgo_dust2.jpg")}/>
+                            </Row>
+                        </Card.Text>
+                </Row>
+              </Card.Body>
             </Card>
-        </div>
-    </Col>
+            <Card className="text-center" style={{ width: 'auto' }}>
+              <Card.Body>
+                <Card.Title>Season Rankings</Card.Title>
+                <Card.Text>
+                <Row>
+                    <Col>
+                          Season 1
+                          <div className="w-auto h-auto">
+                               <img className="" src={require("../images/csgoMasterGuardianRank.png")}/>
+                          </div>
+                    </Col>
+                    <Col>
+                          Season 2
+                          <div className="w-auto h-auto">
+                               <img className="ad1" src={require("../images/csgoGlobalEliteRank.png")}/>
+                          </div>
+                    </Col>
+                    <Col>
+                          Season 3
+                          <div className="w-auto h-auto">
+                               <img className="ad1" src={require("../images/csgoSilverRank.png")}/>
+                          </div>
+                    </Col>
+                  </Row>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: 'auto' }}>
+              <Card.Body>
+                <Card.Title>Mutual Friends</Card.Title>
+                <Card.Text>
+                  <Row>
+                    <Row>
+                      <Col>
+                            Player Name
+                      </Col>
+                      <Col>
+                            <img className="h-10 w-10" src={require("../images/playerIcon.png")}/>
+                      </Col>
+                    </Row>
+                    <div className="w-25 p-1"></div>
+                    <Row>
+                        <Col>
+                        Player Name
+                        </Col>
+                        <Col>
+                            <img className="h-10 w-10" src={require("../images/playericon.jpg")}/>
+                      </Col>
+                    </Row>
+                  </Row>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+        </Col>
+        <Col xs={7}>
+
+            <Card border="success" className="bg-success p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
+            <Card.Body>
+            <Card.Title className="text-center">Game 1</Card.Title>
+                <Card.Text>
+                <Row>
+                  <Col xs={5} className="text-center">
+                        Dust 2
+                        <img className="square bg-primary rounded-3" src={require("../images/csgo_dust2.jpg")}/>
+                  </Col>
+                  <Col className="col-3">
+                        K/D Ratio: 1.2
+                        <div>
+                            MVP: Player Name
+                        </div>
+                        <div>
+                            Best Weapon:
+                            <img className="" src={require("../images/csgoDeagle.png")}/>
+                        </div>
+                        <div>
+                            Game Duration: 1 Hr
+                        </div>
+                  </Col>
+                  <Col>
+                        Ally Team
+                        <Row>
+
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/phone_support.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/jesus.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+
+                        </Row>
+
+                  </Col>
+                  <Col>
+                        Enemy Team
+                        <Row>
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                        </Row>
+                  </Col>
+                </Row>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="danger" className="bg-danger p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
+              <Card.Body>
+                <Card.Title className="text-center">Game 2</Card.Title>
+                <Card.Text>
+                <Row>
+                  <Col xs={5} className="text-center">
+                        Mirage
+                        <img className="square bg-primary rounded-3" src={require("../images/mirageCSGO.jpg")}/>
+                  </Col>
+                  <Col className="col-3">
+                        K/D Ratio: 0.5
+                        <div>
+                            MVP: Player Name
+                        </div>
+                        <div>
+                            Best Weapon:
+                            <img className="" src={require("../images/csgoAK47.png")}/>
+                        </div>
+                        <div>
+                            Game Duration: 1 Hrs 30 mins
+                        </div>
+                  </Col>
+                  <Col>
+                        Ally Team
+                        <Row>
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                        </Row>
+
+                  </Col>
+                  <Col className="fluid">
+                        Enemy Team
+                        <Row>
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                        </Row>
+                  </Col>
+                </Row>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card border="success" className="bg-success p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
+              <Card.Body>
+                <Card.Title className="text-center">Game 3</Card.Title>
+                <Card.Text>
+                <Row>
+                  <Col xs={5} className="text-center">
+                        Inferno
+                        <img className="square bg-primary rounded-3" src={require("../images/infernoCSGO.jpg")}/>
+                  </Col>
+                  <Col className="col-3">
+                        K/D Ratio: 3.1
+                        <div>
+                            MVP: Player Name
+                        </div>
+                        <div>
+                            Best Weapon:
+                            <img className="" src={require("../images/csgoM4A4.png")}/>
+                        </div>
+                        <div>
+                            Game Duration: 2 Hrs
+                        </div>
+                  </Col>
+                  <Col>
+                        Ally Team
+                        <Row>
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                        </Row>
+                  </Col>
+                  <Col className="fluid">
+                        Enemy Team
+                        <Row>
+                            Player 1
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            <Row>
+                                Player 2
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 3
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 4
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                            <Row>
+                                Player 5
+                                <Row>
+                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                                </Row>
+                            </Row>
+                        </Row>
+                  </Col>
+                </Row>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+        </Col>
+
+        <Col>
+            <div className="text-center">
+                <Card>
+                    <img className="ad1" src={require("../images/bottomAd2.png")}/>
+                </Card>
+            </div>
+        </Col>
     </Row>
-
-</Row>
-
+</div>
     )
 }
 
