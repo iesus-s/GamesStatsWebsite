@@ -14,17 +14,36 @@ const Account = () => {
   return (
     <div>
         <AccountProfile />
+
         <div className="max-w-lg mx-auto">
             <hr className="h-px my-8 bg-gray-200 border-10 dark:bg-gray-700"/>
         </div>
-        <div className="container my-8">
+
+        <div className="container my-8 bg-red">
+
+          <h1 className="mb-20">Settings</h1>
+        
           <h2>Edit Profile</h2>
-          <div class="d-sm-flex flex-column justify-content-center">
-                  
-            <div class="input-group mb-3">
-              <input type="text" class="form-control" placeholder="Profile Name" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-              <button class="btn btn-outline-secondary" type="button" id="Profile Name" onClick={handleShow}>Enter</button>
-            </div>
+          <Form>
+            <Form.Group controlId="formFile" className="mb-3">
+              <Form.Label>Profile Image</Form.Label>
+              <Form.Control type="file" />
+            </Form.Group>
+            
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Profile Name</Form.Label>
+              <Form.Control type="text" placeholder="Profile Name" />
+            </Form.Group>
+
+            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+              <Form.Label>Bio Entry</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+
+            <Button variant="primary" type="submit" onClick={handleShow}>
+              Submit
+            </Button>
+
             <Modal show={showPN} onHide={handleClose}>
               <Modal.Header closeButton>
                 <Modal.Title>Profile Name</Modal.Title>
@@ -36,12 +55,10 @@ const Account = () => {
                 </Button>
               </Modal.Footer>
             </Modal>
-            <label for="formGroupBioInput" class="form-label ">Bio Entry</label>
-            <div class="input-group mb-3" id="formGroupBioInput">
-              <textarea class="form-control" aria-label="With textarea"></textarea>
-            </div>
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enter</button>
-          </div>
+
+          </Form>
+
+            
 
           <h2>Link Gaming Profiles</h2>
           <div class="d-sm-flex flex-column justify-content-center">
