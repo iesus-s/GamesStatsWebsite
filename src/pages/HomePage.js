@@ -82,8 +82,7 @@ class HomePage extends Component {
                       <Card.Title>Counter-Strike: Global Offensive</Card.Title>
 
                       <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Strategize and plan in the world-renowned first person shooter CSGO.
                       </Card.Text>
 
 
@@ -101,8 +100,7 @@ class HomePage extends Component {
                     <Card.Body className="game_text">
                       <Card.Title>APEX LEGENDS</Card.Title>
                       <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Squad up with and be the last team standing in the fast paced Battle Royale APEX LEGENDS.
                       </Card.Text>
 
                             <Link to="/Apex">
@@ -124,11 +122,10 @@ class HomePage extends Component {
                     <Card.Body className="game_text">
                       <Card.Title>VALORANT</Card.Title>
                       <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                       Engage in intense team-based battles. Plan with your team to defeat the opposition in VALORANT.
                       </Card.Text>
 
-                         <Link to="/VALO">
+                         <Link to="/valorant">
                             <Button variant="primary">View Game Page</Button>
                          </Link>
 
