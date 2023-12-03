@@ -109,3 +109,8 @@ body {
   align-items: center;
 }
 
+.banner_class {
+  background-color: #7B0828;
+  width: 100%;
+
+}
