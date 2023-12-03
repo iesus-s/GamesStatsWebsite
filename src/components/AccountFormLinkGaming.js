@@ -1,42 +1,40 @@
-import {Form, Button, Modal} from 'react-bootstrap'
+import {Form, Button, Modal, Badge} from 'react-bootstrap'
 
-const AccountFormLinkGaming = () => {
+const AccountFormLinkGaming = ({showPN, handleShow, handleClose}) => {
   return (
-    <div>
-        <h2>Link Gaming Profiles</h2>
+    <Form >
+        <h2 >Link Gaming Profiles</h2>
 
-        <h5>
         <Badge pill bg='warning'>PC</Badge>
-        Steam Username
+        <h5>Steam Username</h5>
         <Button variant="secondary" onClick={handleClose}>
             Link
         </Button>
-        </h5>
+        
 
-        <h5>
+        
         <Badge pill bg='success'>X</Badge>
-        Xbox Gamertag
+        <h5>Xbox Gamertag</h5>
         <Button variant="secondary" onClick={handleClose}>
             Link
         </Button>
-        </h5>
+        
 
-        <h5>
+        
         <Badge pill bg='primary'>PS</Badge>
-        Playstation Username
+        <h5>Playstation Username</h5>
         <Button variant="secondary" onClick={handleClose}>
             Link
         </Button>
-        </h5>
 
-        <h5>
+        
         <Badge pill bg='danger'>N</Badge>
-        Nintendo Username
+        <h5>Nintendo Username</h5> 
         <Button variant="secondary" onClick={handleClose}>
             Link
         </Button>
-        </h5>    
-    </div>
+           
+    </Form>
   )
 }
 
