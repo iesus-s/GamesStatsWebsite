@@ -37,9 +37,8 @@ const CSGOSC = () => {
             width="560"
             height="315"
             src="https://www.youtube.com/embed/k2vbZx2WPM8?autoplay=1&mute=1"
-            frameBorder="0"
             allowFullScreen
-            className="img-fluid w-50 d-none d-sm-block"
+            style={{ width: '400%', height: '400px' }}
           ></iframe>
         </div>
       </div>
