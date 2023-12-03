@@ -20,7 +20,7 @@ const AccountProfile = () => {
     //         </div>
     //     </div>
     // </section>
-    <Card className='mx-auto my-10' style={{ width: '20rem' }}>
+    <Card className='mx-auto my-40' style={{ width: '20rem' }}>
         <Card.Img Variant="top" src={require("../images/default_user_profile_pic.jpg")}/>
         <Card.Body>
             <Card.Title >Profile Name</Card.Title>
