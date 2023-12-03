@@ -21,7 +21,7 @@ const ApexSC = () => {
     <section id="learn" className="bg-dark text-light p-5 text-center text-sm-start">
       <div className="container">
         <div className="d-sm-flex align-item-center justify-content-between">
-          <div>
+          <div className="w-100">
             <h1>Become a{' '}
               <span className="text-danger">
                 Apex Predator!
@@ -34,12 +34,9 @@ const ApexSC = () => {
           </div>
           <iframe
             title="Apex Legends Showcase"
-            width="560"
-            height="315"
             src="https://www.youtube.com/embed/m8awXISvVpo?autoplay=1&mute=1"
-            frameBorder="0"
             allowFullScreen
-            className="img-fluid w-50 d-none d-sm-block"
+            style={{ width: '70%', height: '400px' }}
           ></iframe>
         </div>
       </div>
