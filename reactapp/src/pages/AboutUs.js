@@ -13,7 +13,7 @@ const AboutUs = () => {
                       </div>
 
                       <div className ="container text-left" >
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi atque dignissimos eveniet exercitationem harum labore minima nulla omnis provident, quis sequi vero, vitae. A animi atque ex magnam obcaecati.</p>
+                      <p>At FragPulse, our story is one fueled by innovation and collaboration in the dynamic world of gaming. Born out of a shared passion for pushing boundaries and exploring new horizons in the gaming industry, FragPulse is a diverse team of creative minds united by the thrill of turning gaming concepts into reality.  Join our community as FragPulse pioneers the future of gaming, where creativity knows no bounds, and every pulse is a beat towards a more immersive gaming universe.</p>
                       </div>
 
                   </div>
@@ -58,7 +58,7 @@ const AboutUs = () => {
                   </div>
 
                   <div className="col">
-                        <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
+                        <img src={require("../images/Steven.png")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -77,7 +77,7 @@ const AboutUs = () => {
                   </div>
 
                      <div className="col">
-                       <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
+                       <img src={require("../images/Luis.png")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -94,7 +94,7 @@ const AboutUs = () => {
                   </div>
 
                  <div className="col">
-                  <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
+                  <img src={require("../images/Lance.png")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
               </div>
           </div>
@@ -105,8 +105,9 @@ const AboutUs = () => {
               <div class="row align">
                   <div class="col">
                       <h1> Miguel Corral  </h1>
+
                       <div className ="container text-left" >
-                      <p>At FragPulse, our story is one fueled by innovation and collaboration in the dynamic world of gaming. Born out of a shared passion for pushing boundaries and exploring new horizons in the gaming industry, FragPulse is a diverse team of creative minds united by the thrill of turning gaming concepts into reality. Our journey is marked by a commitment to excellence, whether we're crafting unique gaming experiences or envisioning the next breakthrough in interactive entertainment. Join us on this exhilarating adventure as FragPulse pioneers the future of gaming, where creativity knows no bounds, and every pulse is a beat towards a more immersive gaming universe.</p>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi atque dignissimos eveniet exercitationem harum labore minima nulla omnis provident, quis sequi vero, vitae. A animi atque ex magnam obcaecati.</p>
                       </div>
                   </div>
 
@@ -129,7 +130,7 @@ const AboutUs = () => {
                   </div>
 
                 <div className="col">
-                  <img src={require("../images/company_photo.jpeg")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
+                  <img src={require("../images/Jesus.png")} className="img-responsive img-circle  rounded-full " width={"300"} height={"50"}></img>
                   </div>
 
               </div>
