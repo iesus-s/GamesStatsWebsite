@@ -18,7 +18,7 @@ import CreateAccount from "./components/CreateAccount";
 import Friends from "./components/Friends";
 import CSGO from "./pages/CSGO";
 import VALO from "./pages/VALO";
-
+import api from './api/posts';
 
 function App() {
   return (
