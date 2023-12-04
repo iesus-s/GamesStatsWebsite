@@ -59,8 +59,6 @@ class HomePage extends Component {
                       <p>Track and analyze your victories and defeats, climb the leaderboards. Elevate your gaming experience with real-time stats. Level up your play, even the playing field!</p>
                       </div>
 
-
-
                   </div>
               </div>
           </div>
@@ -136,14 +134,14 @@ class HomePage extends Component {
               <div className="p-5">
 
               <h1>General Updates and Patches</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur magni expedita necessitatibus ab. Magnam, laudantium. Hic nisi laborum, doloribus quibusdam animi sequi, eligendi quam, minima velit maiores reprehenderit modi?</p>
+              <p> Dive into Valorant, CSGO, and APEX Legends with our compact coverage of the most recent updates and patches. Expect new agents and strategies in Valorant, weapon tweaking and consistent anti-cheat mechanisms in CSGO, and a fresh battle royale experience in APEX Legends. Stay informed with gaming communities with FragPulse. </p>
 
 
               </div>
 
               <div className="p-5">
               <h1>Whats Trending</h1>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti pariatur magni expedita necessitatibus ab. Magnam, laudantium. Hic nisi laborum, doloribus quibusdam animi sequi, eligendi quam, minima velit maiores reprehenderit modi?</p>
+              <p>Find the latest and trending topics on FragPulse. Consume the latest content of Valorant, CSGO, and APEX Legends. Find out about the latest buzz on your favorite pro-players or the newest viral gameplay. </p>
               </div>
 
                 <div className="p-5">
