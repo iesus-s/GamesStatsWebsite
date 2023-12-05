@@ -39,6 +39,15 @@ class HomePage extends Component {
       </div>
     </div>
 
+     <div className="w-25 p-3"></div>
+
+    <div className ="tracking text-center pt-5 border border-gray bg-gray-400">
+    <h1> Players online: 9,767,564,897</h1>
+    </div>
+
+
+
+
          <div className = "banner">
           <div className="container text-center pt-5">
               <div class="row align">

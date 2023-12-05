@@ -53,7 +53,7 @@ const AboutUs = () => {
                       <h1> Steven Awakem </h1>
 
                       <div className ="container text-left" >
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi atque dignissimos eveniet exercitationem harum labore minima nulla omnis provident, quis sequi vero, vitae. A animi atque ex magnam obcaecati.</p>
+                      <p> Hi, I'm Steven Awakem. I’m currently pursuing a Bachelor's Degree in Computer Engineering at San Diego State University. I’m currently learning Web Design and Database, Operating Systems, and the Basys 3. I’m looking to collaborate on projects that aims to enhance the customer experience.Fun fact: I was born in Greece, Athens. </p>
                       </div>
                   </div>
 
@@ -72,7 +72,7 @@ const AboutUs = () => {
 
                       <h1> Luis Bello </h1>
                       <div className ="container text-left" >
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi atque dignissimos eveniet exercitationem harum labore minima nulla omnis provident, quis sequi vero, vitae. A animi atque ex magnam obcaecati.</p>
+                      <p>Hi, I'm Luis Bello V. I'm interested in Embedded Systems, Cloud Systems, Web Development, Network Engineering, and OS Systems. Looking to collaborate on projects that blends creativity and computer technology. I’m pursuing a Bachelor's Degree in Electrical and Computer Engineering</p>
                       </div>
                   </div>
 
@@ -89,7 +89,7 @@ const AboutUs = () => {
                   <div class="col">
                       <h1> Lance Reyes </h1>
                       <div className ="container text-left" >
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi atque dignissimos eveniet exercitationem harum labore minima nulla omnis provident, quis sequi vero, vitae. A animi atque ex magnam obcaecati.</p>
+                      <p>Hi, I'm Lance Reyes, I’m a computer engineering major at San Diego State Univeristy. I’m currently learning Web Programming and Embedded Operating systems. Interested in software development.</p>
                       </div>
                   </div>
 
@@ -107,7 +107,7 @@ const AboutUs = () => {
                       <h1> Miguel Corral  </h1>
 
                       <div className ="container text-left" >
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi atque dignissimos eveniet exercitationem harum labore minima nulla omnis provident, quis sequi vero, vitae. A animi atque ex magnam obcaecati.</p>
+                      <p> Hi, I’m Miguel Corral.I’m interested in automation, AI learning, learning new coding languages, video games, card games, and anything tech related. I’m currently refreshing on python. I’m looking to collaborate on anything that looks interesting and or helps daily activities. How to reach me: discord, phone or email</p>
                       </div>
                   </div>
 
@@ -125,7 +125,7 @@ const AboutUs = () => {
                   <div class="col">
                       <h1> Jesus Sandoval </h1>
                       <div className ="container text-left" >
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, animi atque dignissimos eveniet exercitationem harum labore minima nulla omnis provident, quis sequi vero, vitae. A animi atque ex magnam obcaecati.</p>
+                      <p> Hi, I am Jesus Angel Sandoval. My interests include computer logic design, embedded systems, and backend web development. I am a Project Engineering Assistant at Solar Turbines. I will receive a Bachelor's degree in Computer Engineering from SDSU.</p>
                       </div>
                   </div>
 
