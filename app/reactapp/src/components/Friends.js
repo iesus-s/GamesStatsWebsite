@@ -99,7 +99,23 @@ const Friends = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            <div>
+                <Card>
+                    <img className="ad1" src={require("../images/nintendoAd.jpg")}/>
+                </Card>
+            </div>
+            <div>
+                <Card>
+                    <img className="ad1" src={require("../images/onePieceAd.jpg")}/>
+                </Card>
+            </div>
+            <div>
+                <Card>
+                    <img className="ad1" src={require("../images/adsGGsupps.jpg")}/>
+                </Card>
+            </div>
         </Col>
+
         <Col xs={7}>
 
             <Card border="success" className="bg-success p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
@@ -220,10 +236,10 @@ const Friends = () => {
                         </div>
                   </Col>
                   <Col>
-                        Ally Team
+                        <h5>Ally Team</h5>
                         <Row>
-                            Player 1
                                 <Row>
+                                    <h9>Player 1</h9>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
                                 </Row>
                             <Row>
@@ -313,70 +329,70 @@ const Friends = () => {
                         </div>
                   </Col>
                   <Col>
-                        Ally Team
-                        <Row>
+                        <h5>Ally Team</h5>
+                        <div>
                             Player 1
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            <Row>
-                                Player 2
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                            <Row>
-                                Player 3
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                            <Row>
-                                Player 4
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                            <Row>
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                        <div>
+                            Player 2
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                        <div>
+                            Player 3
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                        <div>
+                            Player 4
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                            <div>
                                 Player 5
-                                <Row>
+                                <div>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                        </Row>
+                                </div>
+                            </div>
                   </Col>
-                  <Col className="fluid">
-                        Enemy Team
-                        <Row>
+                  <Col>
+                        <h5>Enemy Team</h5>
+                        <div>
                             Player 1
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            <Row>
-                                Player 2
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                            <Row>
-                                Player 3
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                            <Row>
-                                Player 4
-                                <Row>
-                                    <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                            <Row>
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                        <div>
+                            Player 2
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                        <div>
+                            Player 3
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                        <div>
+                            Player 4
+                            <div>
+                                <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
+                            </div>
+                        </div>
+                            <div>
                                 Player 5
-                                <Row>
+                                <div>
                                     <img className="rounded-circle w-auto h-8" src={require("../images/playericon.jpg")}/>
-                                </Row>
-                            </Row>
-                        </Row>
+                                </div>
+                            </div>
                   </Col>
                 </Row>
                 </Card.Text>
@@ -390,6 +406,32 @@ const Friends = () => {
                     <img className="ad1" src={require("../images/bottomAd2.png")}/>
                 </Card>
             </div>
+            <div>
+                <Card>
+                    <img className="ad1" src={require("../images/pepsiAd.png")}/>
+                </Card>
+            </div>
+            <div>
+                <Card>
+                    <img className="" src={require("../images/subwayAd.jpg")}/>
+                </Card>
+            </div>
+            <div>
+                <Card>
+                    <img className="ad1" src={require("../images/raidAd.jpg")}/>
+                </Card>
+            </div>
+            <div>
+                <Card>
+                    <img className="h-max" src={require("../images/burgerKingAd.jpg")}/>
+                </Card>
+            </div>
+                <div>
+                <Card>
+                    <img className="h-max" src={require("../images/riotAd.png")}/>
+                </Card>
+            </div>
+
         </Col>
     </Row>
 </div>
