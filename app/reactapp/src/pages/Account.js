@@ -36,29 +36,6 @@ const Account = () => {
     setNotificationsSettings(true);
   };
 
-  const handleSettingsRender = ({showProfileSettings, showLinkAccountSettings, showNotificationSettings}) => {
-
-    if (showProfileSettings) {
-      return 
-        <AccountFormProfile 
-          showPN={showProfileSubmittion} 
-          handleShow={handleShow} 
-          handleClose={handleClose}
-        />
-    }
-    else if (showLinkAccountSettings) {
-      return
-        <AccountFormLinkGaming
-                
-              
-        />
-    }
-    else if (showNotificationSettings) {
-      return <AccountFormNotifications/>
-    }
-  };
-
-
   return (
     <div className="container-fluid pt-40 pb-20 bg-claret">
       <div className=" my-0">
@@ -71,25 +48,25 @@ const Account = () => {
 
         <div className="container mt-10 pb-10 bg-beaver">
 
-          <h1 className="mb-20 mx-auto">Settings</h1>
+          <h1 className="mb-10 mx-auto">Settings</h1>
           <Row>
             <Col md={4}>
               <Row>
-                <Button onClick={ () =>{
+                <Button variant="black" onClick={ () =>{
                   handleButtonEditProfile();
                 }}>
                   Edit Profile
                 </Button>
               </Row>
               <Row>
-                <Button onClick={ () =>{
+                <Button variant="black"  onClick={ () =>{
                   handleButtonLinkProfile();
                 }}>
                   Link Gaming Profiles
                 </Button>
               </Row>
               <Row>
-                <Button onClick={ () =>{
+                <Button variant="black"  onClick={ () =>{
                   handleButtonEditNotifications();
                 }}>
                   Edit Notifications
@@ -98,27 +75,11 @@ const Account = () => {
             </Col>
 
             <Col lg={8}>
-
-            <handleSettingsRender 
-              showProfileSettings={showProfileSettings}
-              showLinkAccountSettings={showLinkAccountSettings}
-              showNotificationSettings={showNotificationSettings}
-            />
-
+              {showProfileSettings ? <AccountFormProfile /> : <></> }
+              {showLinkAccountSettings ? <AccountFormLinkGaming/> : <></>}
+              {showNotificationSettings ? <AccountFormNotifications/> : <></>}
             </Col>
-            {/* <AccountFormProfile 
-              showPN={showProfileSubmittion} 
-              handleShow={handleShow} 
-              handleClose={handleClose}
-            />
 
-            <AccountFormLinkGaming
-              
-            
-            />
-
-            <AccountFormNotifications
-            /> */}
           </Row>
 
           

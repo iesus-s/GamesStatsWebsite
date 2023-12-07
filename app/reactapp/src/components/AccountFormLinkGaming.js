@@ -2,8 +2,8 @@ import {Form, Button, Modal, Badge, Row, Col} from 'react-bootstrap'
 
 const AccountFormLinkGaming = ({showPN, handleShow, handleClose}) => {
   return (
-    <Form >
-        <h2 className='mt-20 mb-10'>Link Gaming Profiles</h2>
+    <Form className='mb-20'>
+        <h2 className='mb-10'>Link Gaming Profiles</h2>
         <Row xs="auto" className='mx-auto'>
             <Col>
                 <Badge pill bg='warning'>PC</Badge>
