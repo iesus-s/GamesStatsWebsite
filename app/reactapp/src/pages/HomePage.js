@@ -41,21 +41,17 @@ class HomePage extends Component {
 
      <div className="w-25 p-3"></div>
 
-    <div className ="tracking text-center pt-5 border border-gray bg-gray-400">
+         <div className = "banner border border-gray bg-gray-400 pb-2 pt-2">
+             <div className ="tracking text-center pt-3">
     <h1> Players online: 9,767,564,897</h1>
     </div>
-
-
-
-
-         <div className = "banner">
-          <div className="container text-center pt-5">
-              <div class="row align">
+    <div className="w-25 p-3"></div>
+          <div className="container text-center pb-2 ">
+              <div class="md: flex">
                   <div class="col">
                         <div className ="container pr-1.5" >
-                      <img src={require("../images/gamestats.png")} className="img-responsive  ml-20" alt={"game stats"} width={"450"} height={"50"}></img>
+                      <img src={require("../images/gamestats.png")} className="img-responsive  ml-20" alt={"game stats"} width={"375"} height={"50"}></img>
                          </div>
-
                   </div>
 
                   <div className="col">
@@ -78,42 +74,47 @@ class HomePage extends Component {
 
 
               <div className="w-25 p-5"></div>
-                <Row className="space-x-3 justify-content-lg-center">
-                  <Card  className="game3_img" style={{ width: '18rem' }}>
+                <Row className="space-x-4 justify-content-lg-center">
+                  <Card  className="game3_img p-3" style={{ width: '18rem' }}>
 
                     <CardImg className="game2_img"/>
 
+                    <div class = "flex justify-center items-center">
                     <img src={require("../images/sre11-fa54ac1fab9be0d19bd113b40cefd5cdca031fa7f5290aa6e42dccca3b02f38f.jpg")} className="img-responsive" alt={"CSGO_Photo"} width={"300"} height={"200"}></img>
+                     </div>
 
-                    <Card.Body className="game_text">
+                    <Card.Body className="game_text pt-4">
                       <Card.Title>Counter-Strike: Global Offensive</Card.Title>
 
                       <Card.Text>
                         Strategize and plan in the world-renowned first person shooter CSGO.
                       </Card.Text>
 
-
+                        <div className="pt-2">
                          <Link to="/CSGO">
-                            <Button variant="primary">View Game Page</Button>
+                            <Button variant="danger">View Game Page</Button>
                           </Link>
-
+                            </div>
                     </Card.Body>
                   </Card>
 
 
-                  <Card className="game2" style={{ width: '18rem' }}>
+                  <Card className="game2 p-3" style={{ width: '18rem' }}>
                     <CardImg className="game2_img"/>
+                    <div class = "flex justify-center items-center">
                     <img src={require("../images/apex_cover.jpeg")} className="img-responsive" alt={"CSGO_Photo"} width={"300"} height={"200"}></img>
+                    </div>
                     <Card.Body className="game_text">
                       <Card.Title>APEX LEGENDS</Card.Title>
                       <Card.Text>
-                        Squad up with and be the last team standing in the fast paced Battle Royale APEX LEGENDS.
+                        Squad up and be the last team standing in the fast paced Battle Royale APEX LEGENDS.
                       </Card.Text>
 
+                               <div className="pt-4">
                             <Link to="/Apex">
-                            <Button variant="primary">View Game Page</Button>
+                            <Button variant="danger">View Game Page</Button>
                             </Link>
-
+                            </div>
 
 
 
@@ -121,21 +122,23 @@ class HomePage extends Component {
                   </Card>
 
 
-                  <Card className="game3" style={{ width: '18rem' }}>
+                  <Card className="game3 p-3" style={{ width: '18rem' }}>
                     <CardImg className="game3_img"/>
 
-                    <img src={require("../images/valorant_cover.jpeg")} className="img-responsive" alt={"CSGO_Photo"} width={"200"} height={"200"}></img>
-
-                    <Card.Body className="game_text">
+                     <div class = "flex justify-center items-center">
+                    <img src={require("../images/valorant_cover.jpeg")} className="img-responsive" alt={"CSGO_Photo"} width={"175"} height={"200"}></img>
+                    </div>
+                    <Card.Body className="game_text pt-4">
                       <Card.Title>VALORANT</Card.Title>
                       <Card.Text>
                        Engage in intense team-based battles. Plan with your team to defeat the opposition in VALORANT.
                       </Card.Text>
 
+                         <div className="pt-1">
                          <Link to="/valorant">
-                            <Button variant="primary">View Game Page</Button>
+                            <Button variant="danger">View Game Page</Button>
                          </Link>
-
+                           </div>
                     </Card.Body>
                   </Card>
                 </Row>
