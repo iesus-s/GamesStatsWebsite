@@ -11,38 +11,119 @@ document.body.style.backgroundColor = "#FBF5F3";
 
 const Account = () => {
   const [showProfileSubmittion, setProfileSubmittion] = useState(false);
+  const [showProfileSettings, setProfileSettings] = useState(true);
+  const [showLinkAccountSettings, setLinkAccountSettings] = useState(false);
+  const [showNotificationSettings, setNotificationsSettings] = useState(false);
 
   const handleClose = () => setProfileSubmittion(false);
   const handleShow = () => setProfileSubmittion(true);
 
+  const handleButtonEditProfile = () => {
+    setProfileSettings(true);
+    setLinkAccountSettings(false);
+    setNotificationsSettings(false);
+  };
+
+  const handleButtonLinkProfile = () => {
+    setProfileSettings(false);
+    setLinkAccountSettings(true);
+    setNotificationsSettings(false);
+  };
+
+  const handleButtonEditNotifications = () => {
+    setProfileSettings(false);
+    setLinkAccountSettings(false);
+    setNotificationsSettings(true);
+  };
+
+  const handleSettingsRender = ({showProfileSettings, showLinkAccountSettings, showNotificationSettings}) => {
+
+    if (showProfileSettings) {
+      return 
+        <AccountFormProfile 
+          showPN={showProfileSubmittion} 
+          handleShow={handleShow} 
+          handleClose={handleClose}
+        />
+    }
+    else if (showLinkAccountSettings) {
+      return
+        <AccountFormLinkGaming
+                
+              
+        />
+    }
+    else if (showNotificationSettings) {
+      return <AccountFormNotifications/>
+    }
+  };
+
+
   return (
-    <div>
+    <div className="container-fluid pt-40 pb-20 bg-claret">
+      <div className=" my-0">
+        <h1></h1>
         <AccountProfile />
 
         <div className="max-w-lg mx-auto">
-            <hr className="h-px my-8 bg-gray-200 border-10 dark:bg-gray-700"/>
+            <hr className="h-px my-20 bg-night border-10 dark:bg-gray-700"/>
         </div>
 
-        <div className="container my-8 bg-red">
+        <div className="container mt-10 pb-10 bg-beaver">
 
-          <h1 className="mb-20">Settings</h1>
-        
-          <AccountFormProfile 
-            showPN={showProfileSubmittion} 
-            handleShow={handleShow} 
-            handleClose={handleClose}
-          />
+          <h1 className="mb-20 mx-auto">Settings</h1>
+          <Row>
+            <Col md={4}>
+              <Row>
+                <Button onClick={ () =>{
+                  handleButtonEditProfile();
+                }}>
+                  Edit Profile
+                </Button>
+              </Row>
+              <Row>
+                <Button onClick={ () =>{
+                  handleButtonLinkProfile();
+                }}>
+                  Link Gaming Profiles
+                </Button>
+              </Row>
+              <Row>
+                <Button onClick={ () =>{
+                  handleButtonEditNotifications();
+                }}>
+                  Edit Notifications
+                </Button>
+              </Row>
+            </Col>
 
-          <AccountFormLinkGaming
+            <Col lg={8}>
+
+            <handleSettingsRender 
+              showProfileSettings={showProfileSettings}
+              showLinkAccountSettings={showLinkAccountSettings}
+              showNotificationSettings={showNotificationSettings}
+            />
+
+            </Col>
+            {/* <AccountFormProfile 
+              showPN={showProfileSubmittion} 
+              handleShow={handleShow} 
+              handleClose={handleClose}
+            />
+
+            <AccountFormLinkGaming
+              
             
-          
-          />
+            />
 
-          <AccountFormNotifications
-          />
+            <AccountFormNotifications
+            /> */}
+          </Row>
 
           
         </div>
+      </div>
     </div>
   )
 }

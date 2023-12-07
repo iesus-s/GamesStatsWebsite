@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -119,8 +119,10 @@ strong {
 }
 
 /*
-1. Use the user's configured `mono` font family by default.
-2. Correct the odd `em` font sizing in all browsers.
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
 */
 
 code,
@@ -129,8 +131,12 @@ samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
-  font-size: 1em;
+  font-feature-settings: normal;
   /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
 }
 
 /*
@@ -1300,6 +1306,11 @@ input:checked + .toggle-bg {
   margin-right: auto;
 }
 
+.my-0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
@@ -1313,11 +1324,6 @@ input:checked + .toggle-bg {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
 }
 
 .my-6 {
@@ -1428,6 +1434,10 @@ input:checked + .toggle-bg {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-3 {
@@ -1562,6 +1572,11 @@ input:checked + .toggle-bg {
 
 .h-full {
   height: 100%;
+}
+
+.h-max {
+  height: -webkit-max-content;
+  height: max-content;
 }
 
 .h-modal {
@@ -2365,9 +2380,19 @@ input:checked + .toggle-bg {
   border-color: rgb(159 88 10 / var(--tw-border-opacity));
 }
 
+.bg-beaver {
+  --tw-bg-opacity: 1;
+  background-color: rgb(161 130 118 / var(--tw-bg-opacity));
+}
+
 .bg-blue-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(26 86 219 / var(--tw-bg-opacity));
+}
+
+.bg-claret {
+  --tw-bg-opacity: 1;
+  background-color: rgb(123 8 40 / var(--tw-bg-opacity));
 }
 
 .bg-cyan-100 {
@@ -2503,6 +2528,11 @@ input:checked + .toggle-bg {
 .bg-lime-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(101 163 13 / var(--tw-bg-opacity));
+}
+
+.bg-night {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 15 13 / var(--tw-bg-opacity));
 }
 
 .bg-pink-100 {
@@ -2967,6 +2997,11 @@ input:checked + .toggle-bg {
 .py-2\.5 {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-3 {
