@@ -16,7 +16,6 @@ const CSGO = () => {
           <CSGOLSOne />
           <CSGOLSTwo />
           <CSGOLSThree />
-          <CSGOFAQ />
           <CSGOPP />
   
           

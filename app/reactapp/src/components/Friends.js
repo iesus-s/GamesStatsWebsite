@@ -12,6 +12,38 @@ const Friends = () => {
     return(
 <div>
 <div className="w-25 p-1"></div>
+<Container>
+<div className = "search bar ">
+      <label htmlFor="Search Players" className="block text-sm font-medium leading-6 text-gray-900">
+
+      </label>
+      <div className="relative mt-2 text-center pt-5">
+        <div className="text-center pt-5 pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+          <span className=" text-gray-500 sm:text-sm"></span>
+        </div>
+        <input
+          type="text"
+          name="Search"
+          id="Search"
+          className="w-10/12 rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-400 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 "
+          placeholder="Search Players"
+        />
+
+        <div className="absolute inset-y-0 right-0 flex items-center">
+
+          <label htmlFor="Find" className="sr-only">
+           Players
+          </label>
+          <div className="text-center pt-5">
+
+            <Button variant="secondary" className=" sticky top-0 "> Search</Button>
+
+            </div>
+        </div>
+
+      </div>
+    </div>
+</Container>
     <Row>
         <Col>
             <Card style={{ width: 'auto' }}>
@@ -46,6 +78,7 @@ const Friends = () => {
                 </Row>
               </Card.Body>
             </Card>
+            <div className="w-25 p-1"></div>
             <Card className="text-center" style={{ width: 'auto' }}>
               <Card.Body>
                 <Card.Title>Season Rankings</Card.Title>
@@ -73,6 +106,7 @@ const Friends = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            <div className="w-25 p-1"></div>
             <Card style={{ width: 'auto' }}>
               <Card.Body>
                 <Card.Title>Mutual Friends</Card.Title>
@@ -99,19 +133,16 @@ const Friends = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            <div className="w-25 p-1"></div>
+            
             <div>
                 <Card>
-                    <img className="ad1" src={require("../images/nintendoAd.jpg")}/>
+                    <img className="h-[15rem]" src={require("../images/onePieceAd.jpg")}/>
                 </Card>
             </div>
             <div>
                 <Card>
-                    <img className="ad1" src={require("../images/onePieceAd.jpg")}/>
-                </Card>
-            </div>
-            <div>
-                <Card>
-                    <img className="ad1" src={require("../images/adsGGsupps.jpg")}/>
+                    <img className="" src={require("../images/adsGGsupps.jpg")}/>
                 </Card>
             </div>
         </Col>
@@ -213,6 +244,7 @@ const Friends = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            <div className="w-25 p-1"></div>
             <Card border="danger" className="bg-danger p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
               <Card.Body>
                 <Card.Title className="text-center">Game 2</Card.Title>
@@ -236,7 +268,7 @@ const Friends = () => {
                         </div>
                   </Col>
                   <Col>
-                        <h5>Ally Team</h5>
+                        Ally Team
                         <Row>
                                 <Row>
                                     <h9>Player 1</h9>
@@ -306,6 +338,7 @@ const Friends = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
+            <div className="w-25 p-1"></div>
             <Card border="success" className="bg-success p-2 text-dark bg-opacity-25" style={{ width: 'auto' }}>
               <Card.Body>
                 <Card.Title className="text-center">Game 3</Card.Title>
@@ -329,7 +362,7 @@ const Friends = () => {
                         </div>
                   </Col>
                   <Col>
-                        <h5>Ally Team</h5>
+                        Ally Team
                         <div>
                             Player 1
                             <div>
@@ -362,7 +395,7 @@ const Friends = () => {
                             </div>
                   </Col>
                   <Col>
-                        <h5>Enemy Team</h5>
+                        Enemy Team
                         <div>
                             Player 1
                             <div>
@@ -413,24 +446,15 @@ const Friends = () => {
             </div>
             <div>
                 <Card>
-                    <img className="" src={require("../images/subwayAd.jpg")}/>
+                    <img className="h-[28rem] overflow-auto" src={require("../images/subwayAd.jpg")}/>
                 </Card>
             </div>
             <div>
                 <Card>
-                    <img className="ad1" src={require("../images/raidAd.jpg")}/>
+                    <img className="" src={require("../images/raidAd.jpg")}/>
                 </Card>
             </div>
-            <div>
-                <Card>
-                    <img className="h-max" src={require("../images/burgerKingAd.jpg")}/>
-                </Card>
-            </div>
-                <div>
-                <Card>
-                    <img className="h-max" src={require("../images/riotAd.png")}/>
-                </Card>
-            </div>
+            
 
         </Col>
     </Row>

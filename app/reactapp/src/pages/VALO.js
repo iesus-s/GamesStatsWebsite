@@ -17,7 +17,6 @@ const VALO = () => {
         <VALOLSOne />
         <VALOLSTwo />
         <VALOLSThree />
-        <VALOFAQ />
         <VALOPP />
 
     </div>

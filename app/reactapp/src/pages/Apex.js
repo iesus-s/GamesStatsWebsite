@@ -17,7 +17,6 @@ const Apex = () => {
         <ApexLSOne />
         <ApexLSTwo />
         <ApexLSThree />
-        <ApexFAQ />
         <ApexPP />
 
         
