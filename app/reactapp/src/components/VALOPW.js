@@ -14,9 +14,9 @@ const VALOPW = () => {
                 </div>
                 <h3 className="card-title mb-3">SniperShadow92</h3>
                 <p className="card-text">
-                  "SniperShadow92 showcased unparalleled accuracy with the Operator, holding angles on Bind to secure a stunning 3K, denying the attackers any chance of entry."
+                  "SniperShadow92 showcased unparalleled accuracy with the Operator, holding angles on Bind to secure a stunning 3K, denying the attackers any chance of entry. Sealing the win."
                 </p>
-                <a href={valorantWebsiteLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Read More</a>
+                <a href={valorantWebsiteLink} className="btn btn-danger" target="_blank" rel="noopener noreferrer">Read More</a>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const VALOPW = () => {
                 <p className="card-text">
                   "RapidRaze's swift entry frags with the Vandal were the highlight of the match on Haven, dismantling the opposing team's defenses and opening up crucial opportunities for the attackers."
                 </p>
-                <a href={valorantWebsiteLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Read More</a>
+                <a href={valorantWebsiteLink} className="btn btn-danger" target="_blank" rel="noopener noreferrer">Read More</a>
               </div>
             </div>
           </div>
@@ -44,9 +44,9 @@ const VALOPW = () => {
                 </div>
                 <h3 className="card-title mb-3">HealingHaven</h3>
                 <p className="card-text">
-                  "HealingHaven's Sage played a pivotal role in the defensive victory on Split, strategically using healing orbs and resurrection to turn the tide in favor of the defenders."
+                  "HealingHaven's Sage played a pivotal role in the defensive victory on Split, strategically using healing orbs and resurrection to turn the tide in favor of the defenders. Picking up his team."
                 </p>
-                <a href={valorantWebsiteLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Read More</a>
+                <a href={valorantWebsiteLink} className="btn btn-danger" target="_blank" rel="noopener noreferrer">Read More</a>
               </div>
             </div>
           </div>
@@ -61,7 +61,7 @@ const VALOPW = () => {
                 <p className="card-text">
                   "FlashMaster, playing as Phoenix, executed a perfectly timed ultimate ability, blinding the entire enemy team on Ascent and allowing his squad to secure a flawless round with coordinated pushes."
                 </p>
-                <a href={valorantWebsiteLink} className="btn btn-primary" target="_blank" rel="noopener noreferrer">Read More</a>
+                <a href={valorantWebsiteLink} className="btn btn-danger" target="_blank" rel="noopener noreferrer">Read More</a>
               </div>
             </div>
           </div>

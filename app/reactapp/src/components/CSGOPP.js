@@ -1,7 +1,7 @@
 const CSGOPP = () => {
     return (
 
-<section id="professionals" class="p-5 bg-primary">
+<section id="professionals" class="p-5 bg-danger">
   <div class="container">
     <h2 class="text-center text-white">Our Recommended Players</h2>
     <p class="lead text-center text-white mb-5">
@@ -9,7 +9,7 @@ const CSGOPP = () => {
     </p>
     <div class="row g-4">
       <div class="col-md-6 col-lg-3">
-        <div class="card bg-light">
+        <div class="card bg-light h-100 overflow-auto">
           <div class="card-body text-center">
             <img
               src={require("../images/CSs1mple.avif")}
@@ -29,7 +29,7 @@ const CSGOPP = () => {
       </div>
 
       <div class="col-md-6 col-lg-3">
-        <div class="card bg-light">
+        <div class="card bg-light h-100 overflow-auto">
           <div class="card-body text-center">
             <img
               src={require("../images/CSniko.avif")}
@@ -49,7 +49,7 @@ const CSGOPP = () => {
       </div>
 
       <div class="col-md-6 col-lg-3">
-        <div class="card bg-light">
+        <div class="card bg-light h-100 overflow-auto">
           <div class="card-body text-center">
             <img
               src={require("../images/CSm0nesy.avif")}
@@ -68,7 +68,7 @@ const CSGOPP = () => {
       </div>
 
       <div class="col-md-6 col-lg-3">
-        <div class="card bg-light">
+        <div class="card bg-light h-100 overflow-auto">
           <div class="card-body text-center">
             <img
               src={require("../images/CSohnepixal.avif")}

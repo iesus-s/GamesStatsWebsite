@@ -39,7 +39,7 @@ const ApexLSOne = () => {
                 </>
               )}
             </p>
-            <button className="btn btn-light mt-3" onClick={handleButtonClick}>
+            <button className="btn btn-danger mt-3" onClick={handleButtonClick}>
               <i className="bi bi-chevron-right"></i> {showAdditionalText ? 'Read Less' : 'Read More'}
             </button>
           </div>

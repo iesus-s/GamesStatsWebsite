@@ -24,7 +24,7 @@ const ApexLSTwo = () => {
               <br />
               <strong>EVA-8 Auto Shotgun:</strong> For close-quarters encounters, the EVA-8 is a reliable choice. Enhance its effectiveness with a Shotgun Bolt for faster fire rate.
             </p>
-            <button className="btn btn-light mt-3" onClick={handleButtonClick}>
+            <button className="btn btn-danger mt-3" onClick={handleButtonClick}>
               <i className="bi bi-chevron-right"></i> {showAdditionalText ? 'Read Less' : 'Read More'}
             </button>
             {showAdditionalText && (

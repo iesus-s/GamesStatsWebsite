@@ -2,7 +2,7 @@ const VALOPP = () => {
     return (
 
        
-        <section id="professionals" class="p-5 bg-primary">
+        <section id="professionals" class="p-5 bg-danger">
           <div class="container">
             <h2 class="text-center text-white">Our Recommended Players</h2>
             <p class="lead text-center text-white mb-5">
@@ -10,7 +10,7 @@ const VALOPP = () => {
             </p>
             <div class="row g-4">
               <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
+                <div class="card bg-light h-100 overflow-auto">
                   <div class="card-body text-center">
                     <img
                       src={require("../images/VALkyedae.avif")}
@@ -30,7 +30,7 @@ const VALOPP = () => {
               </div>
         
               <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
+                <div class="card bg-light h-100 overflow-auto">
                   <div class="card-body text-center">
                     <img
                       src={require("../images/VALscream.avif")}
@@ -50,7 +50,7 @@ const VALOPP = () => {
               </div>
         
               <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
+                <div class="card bg-light h-100 overflow-auto">
                   <div class="card-body text-center">
                     <img
                       src={require("../images/VALyay.avif")}
@@ -69,7 +69,7 @@ const VALOPP = () => {
               </div>
         
               <div class="col-md-6 col-lg-3">
-                <div class="card bg-light">
+                <div class="card bg-light h-100 overflow-auto">
                   <div class="card-body text-center">
                     <img
                       src={require("../images/VALl1nk.avif")}

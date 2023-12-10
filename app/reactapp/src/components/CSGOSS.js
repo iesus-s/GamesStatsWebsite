@@ -15,7 +15,7 @@ const CSGOSS = () => {
   const progress = calculateProgress();
 
   return (
-    <section className="bg-primary text-light p-5">
+    <section className="bg-danger text-light p-5">
       <div className="container">
         <div className="d-md-flex justify-content-between align-items-center">
           <h3 className="mb-3 mb-md-0">Time Until New Competitive Season</h3>

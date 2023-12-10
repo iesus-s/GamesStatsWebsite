@@ -19,6 +19,8 @@ const ApexSC = () => {
 
   return (
     <section id="learn" className="bg-dark text-light p-5 text-center text-sm-start">
+      <div className="w-25 p-12"> </div>
+    
       <div className="container">
         <div className="d-sm-flex align-item-center justify-content-between">
           <div className="w-100">
@@ -28,8 +30,9 @@ const ApexSC = () => {
               </span>
             </h1>
             <p className="lead my-4">Embark on your journey to become an Apex Predator by signing up on Fragpulse today! Our website is your gateway to a wealth of crucial information about Apex Legends, ensuring you stay at the forefront of the game's dynamic landscape. By becoming a member, you gain exclusive access to timely updates on weapon meta, character strategies, and the latest in-game events. Stay in the loop with our comprehensive guides, breaking news, and expert analyses that will sharpen your skills and give you a strategic edge. Fragpulse is more than a platform; it's a community where Apex enthusiasts converge to share insights and discuss tactics. Don't miss out on the opportunity to elevate your Apex Legends experience. Sign up now, and join a thriving community dedicated to mastering the art of the arena!</p>
-            <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#clickformore" onClick={handleButtonClick}>
+            <button className="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#clickformore" onClick={handleButtonClick}>
               Find out how!
+              
             </button>
           </div>
           <iframe

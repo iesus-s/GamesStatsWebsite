@@ -3,7 +3,7 @@ const ApexPP = () => {
 
 
       
-        <section id="professionals" className="p-5 bg-primary">
+        <section id="professionals" className="p-5 bg-danger">
           <div className="container">
             <h2 className="text-center text-white">Our Recommended Players</h2>
             <p className="lead text-center text-white mb-5">
@@ -30,7 +30,7 @@ const ApexPP = () => {
               </div>
         
               <div className="col-md-6 col-lg-3">
-                <div className="card bg-light">
+                <div className="card bg-light h-100 overflow-auto">
                   <div className="card-body text-center">
                     <img
                       src={require("../images/Apexiitztimmy.avif")}
@@ -49,7 +49,7 @@ const ApexPP = () => {
               </div>
         
               <div className="col-md-6 col-lg-3">
-                <div className="card bg-light">
+                <div className="card bg-light h-100 overflow-auto">
                   <div className="card-body text-center">
                     <img
                       src={require("../images/Apexaceu.avif")}
@@ -68,7 +68,7 @@ const ApexPP = () => {
               </div>
         
               <div className="col-md-6 col-lg-3">
-                <div className="card bg-light">
+                <div className="card bg-light h-100 overflow-auto">
                   <div className="card-body text-center">
                     <img
                       src={require("../images/Apextimthetatman.avif")}
@@ -77,7 +77,7 @@ const ApexPP = () => {
                     />
                     <h3 className="card-title mb-3">timthetatman</h3>
                     <p className="card-text">
-                      Timothy John “timthetatman” Betar is a full time Twitch streamer and content creator. He is currently focusing on the battle royale genre.
+                      Timothy John “timthetatman” Betar is a full time Twitch streamer and content creator. He is currently focusing on the battle royale genre with games such as Fortnite, Call of Duty: Warzone, and Apex Legends .
                     </p>
                     <a href="https://twitter.com/timthetatman/status/1717937186450939999" target="_blank" rel="noopener noreferrer"><i className="bi bi-twitter text-dark mx-1"></i></a>
                     <a href="https://www.facebook.com/tim.tatman.12/" target="_blank" rel="noopener noreferrer"><i className="bi bi-facebook text-dark mx-1"></i></a>
