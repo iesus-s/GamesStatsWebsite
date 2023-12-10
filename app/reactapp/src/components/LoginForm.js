@@ -1,62 +1,70 @@
-import EmailAndPassword from "./EmailAndPassword";
-import ForgotPasswordLink from "./ForgotPasswordLink";
-import LoginButton from "./LoginButton";
-import RememberLogin from "./RememberLogin";
-import SignUpButton from "./SignUpButton";
-import { Container, Row } from "react-bootstrap";
-import React, { useState } from "react";
+import {Container, Row} from "react-bootstrap";
+import React from "react";
+
+import 'antd/dist/antd.css';
+import { Form, Input, Button, Checkbox } from 'antd';
+import { UserOutlined, LockOutlined } from '@ant-design/icons';
 
 const LoginForm = () => {
-  // Step 1: State Management
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-
-  // Step 2: Form Submission
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    // Step 3: Logging User Information (This is just a placeholder, replace it with your actual implementation)
-    console.log("User Information:", { email, password });
-
-    // Add logic here to send the user information to your backend or storage
-  };
-
   return (
-    <Container fluid>
-      <div className="w-25 p-5"></div>
-      <Row>
-        <div className="login_form">
-          <div className="container flex flex-col mx-auto">
-            <div className="flex flex-col mb-16 mx-auto">
-              <h1 className="max-w-md text-4xl font-bold text-center">
-                Sign in to Frag Pulse
-              </h1>
-            </div>
-            <form onSubmit={handleSubmit} className="flex flex-col items-center">
-              <EmailAndPassword
-                email={email}
-                setEmail={setEmail}
-                password={password}
-                setPassword={setPassword}
-              />
-              <div className="form-check max-w-sm mx-auto mb-5">
-                <RememberLogin />
-                <ForgotPasswordLink />
-              </div>
-              {/* Adjusted layout for better alignment */}
-              <div className="flex flex-col items-center w-full">
-                <LoginButton />
-              </div>
-              <div className="max-w-sm mx-auto">
-                <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
-              </div>
-              <SignUpButton />
-            </form>
-          </div>
-        </div>
-      </Row>
-    </Container>
-  );
-};
+    <div>
 
-export default LoginForm;
+
+return (
+    <Form
+      name="normal_login"
+      className="login-form"
+      initialValues={{
+        remember: true,
+      }}
+      onFinish={onFinish}
+    >
+      <Form.Item
+        name="username"
+        rules={[
+          {
+            required: true,
+            message: 'Please input your Username!',
+          },
+        ]}
+      >
+        <Input prefix={<UserOutlined className="site-form-item-icon" />} placeholder="Username" />
+      </Form.Item>
+      <Form.Item
+        name="password"
+        rules={[
+          {
+            required: true,
+            message: 'Please input your Password!',
+          },
+        ]}
+      >
+        <Input
+          prefix={<LockOutlined className="site-form-item-icon" />}
+          type="password"
+          placeholder="Password"
+        />
+      </Form.Item>
+      <Form.Item>
+        <Form.Item name="remember" valuePropName="checked" noStyle>
+          <Checkbox>Remember me</Checkbox>
+        </Form.Item>
+
+        <a className="login-form-forgot" href="">
+          Forgot password
+        </a>
+      </Form.Item>
+
+      <Form.Item>
+        <Button type="primary" htmlType="submit" className="login-form-button">
+          Log in
+        </Button>
+        Or <a href="">register now!</a>
+      </Form.Item>
+    </Form>
+
+    </div>
+  )
+}
+
+export default LoginForm
