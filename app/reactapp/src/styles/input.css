@@ -16,7 +16,8 @@ body {
 }
 
 .nav {
-  background-color: #0A0F0D;
+  /* background-color: #0A0F0D; */
+  background-color: #300C32;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
@@ -53,7 +54,8 @@ body {
 }
 
 .nav a {
-  color: #A18276;
+/* color: #A18276; */
+  color: #F2AF5E;
   text-decoration: none;
   height: 100%;
   display: flex;
