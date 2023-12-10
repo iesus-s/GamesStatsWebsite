@@ -7,6 +7,23 @@ import './styles/input.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+require('dotenv/config');
+const express = require('express');
+const cookieParser = require('cookie-parser');
+const cors = require('cors');
+const {verify} = require('jsonwebtoken');
+const {hash, compare} = require('bcryptjs');
+
+//Register a user
+
+//Login a user
+
+//Logout a user
+
+//Setup a protected route
+
+//Get a new access token with a refresh token
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
