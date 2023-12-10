@@ -2,7 +2,7 @@ import {Form, Button, Modal, Badge} from 'react-bootstrap'
 
 const AccountFormNotifications = () => {
   return (
-    <Form>  
+    <Form className='mb-20'>  
         <h2>Notifications</h2>
 
         <Form.Check

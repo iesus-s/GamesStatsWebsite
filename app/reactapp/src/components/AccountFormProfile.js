@@ -18,7 +18,7 @@ const AccountFormProfile = ({showProfileSubmittion, handleShow, handleClose}) =>
     }
   
     return (
-        <Form onSubmit={handleSubmit}>
+        <Form onSubmit={handleSubmit} className='mb-20'>
             <h2>Edit Profile</h2>
             <Form.Group controlId="formFile" className="mb-3">
                 <Form.Label>Profile Image</Form.Label>
