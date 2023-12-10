@@ -8,7 +8,9 @@ class HomePage extends Component {
 
        <Container fluid>
 
-       <div>
+<div className="w-25 p-12"> </div>
+
+       <div className = "search bar ">
       <label htmlFor="Search Players" className="block text-sm font-medium leading-6 text-gray-900">
 
       </label>
@@ -41,32 +43,39 @@ class HomePage extends Component {
 
      <div className="w-25 p-3"></div>
 
-         <div className = "banner border border-gray bg-gray-400 pb-2 pt-2">
-             <div className ="tracking text-center pt-3">
-    <h1> Players online: 9,767,564,897</h1>
-    </div>
-    <div className="w-25 p-3"></div>
-          <div className="container text-center pb-2 ">
-              <div class="md: flex">
+         <div className = "container banner border border-gray bg-gray-400 pb-2 pt-2">
+             <div className ="container tracking text-center pt-3">
+                  <h1> Players online: 9,767,564,897</h1>
+            </div>
+          
+
+      <div className = "section1">
+          <div className="container text-center pt-5">
+              <div class="row align">
                   <div class="col">
-                        <div className ="container pr-1.5" >
-                      <img src={require("../images/gamestats.png")} className="img-responsive  ml-20" alt={"game stats"} width={"375"} height={"50"}></img>
-                         </div>
+
+                  <img src={require("../images/gamestats.png")} className="img-responsive " alt={"game stats"} width={"375"} height={"50"}></img>
+
+
                   </div>
 
                   <div className="col">
 
-                      <div className = "container text-left">
+                  <div className = "container text-left ">
                       <h1> Jump into the action!</h1>
                       </div>
 
                       <div className ="container text-left" >
                       <p>Track and analyze your victories and defeats, climb the leaderboards. Elevate your gaming experience with real-time stats. Level up your play, even the playing field!</p>
                       </div>
+                        
+
+
 
                   </div>
               </div>
           </div>
+      </div>
       </div>
 
 
