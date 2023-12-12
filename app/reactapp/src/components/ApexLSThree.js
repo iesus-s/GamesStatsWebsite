@@ -17,7 +17,7 @@ const ApexLSThree = () => {
             <h2>Shop Changes of the Week/Season</h2>
             <p>Revamp Your Arsenal: Give your weaponry a stylish makeover! This week's exclusive offer brings you stunning skins and decals for the Flatline and EVA-8. Elevate your firepower with these eye-catching designs, available at a limited-time discount. Don't miss the chance to make your mark on the battlefield in style!</p>
             <button
-              className="btn btn-light mt-3"
+              className="btn btn-danger mt-3"
               onClick={redirectToApexItemStore}
             >
               Visit the Shop
