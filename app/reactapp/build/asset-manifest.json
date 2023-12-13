@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f5955f4.css",
-    "main.js": "/static/js/main.40815597.js",
+    "main.css": "/static/css/main.411a0793.css",
+    "main.js": "/static/js/main.d00a8274.js",
     "static/js/787.85fb1cf1.chunk.js": "/static/js/787.85fb1cf1.chunk.js",
     "static/media/ad.mp4": "/static/media/ad.022294908477e31b6191.mp4",
     "static/media/subwayAd.jpg": "/static/media/subwayAd.3d503de9acee599b308b.jpg",
@@ -12,7 +12,6 @@
     "static/media/CounterCS.png": "/static/media/CounterCS.212c3478f8879509218a.png",
     "static/media/KnifeCS.webp": "/static/media/KnifeCS.4c7a12008504559579a2.webp",
     "static/media/jesus.jpg": "/static/media/jesus.3cdc1147d202c6e22b0d.jpg",
-    "static/media/burgerKingAd.jpg": "/static/media/burgerKingAd.8213bd884e990df27b25.jpg",
     "static/media/ValL3.jpg": "/static/media/ValL3.26809d6e4ca927045e35.jpg",
     "static/media/bottomAd2.png": "/static/media/bottomAd2.5402d96bcfb170c61b0c.png",
     "static/media/infernoCSGO.jpg": "/static/media/infernoCSGO.e92f73642801ebf106e7.jpg",
@@ -20,7 +19,6 @@
     "static/media/ValL1.jpg": "/static/media/ValL1.c86f37a323904b0d979c.jpg",
     "static/media/ValL2.jpg": "/static/media/ValL2.204b3249150bfd7e69c8.jpg",
     "static/media/email_support.png": "/static/media/email_support.2d3dbb618fc03ec951f0.png",
-    "static/media/riotAd.png": "/static/media/riotAd.1d204b3cc721d3584873.png",
     "static/media/Jesus.png": "/static/media/Jesus.1fde4aac06f1b5db2f13.png",
     "static/media/Lance.png": "/static/media/Lance.9a83ed1cd2773009532e.png",
     "static/media/onePieceAd.jpg": "/static/media/onePieceAd.1e09e55d8b0ede9bfd2a.jpg",
@@ -34,7 +32,6 @@
     "static/media/WraithPic.jpg": "/static/media/WraithPic.655f08da4d879f71c6d3.jpg",
     "static/media/TerrorCS.webp": "/static/media/TerrorCS.3f796287cc960813ccba.webp",
     "static/media/raidAd.jpg": "/static/media/raidAd.a8b71e3d3a362b96f5c8.jpg",
-    "static/media/nintendoAd.jpg": "/static/media/nintendoAd.85ae190a0c4b16b53701.jpg",
     "static/media/VALyay.avif": "/static/media/VALyay.175f32912fdbb85b2902.avif",
     "static/media/VALscream.avif": "/static/media/VALscream.ca4390fc9df520833167.avif",
     "static/media/FlatlineSkin.jpg": "/static/media/FlatlineSkin.330678178c905b876f74.jpg",
@@ -57,12 +54,12 @@
     "static/media/csgoAK47.png": "/static/media/csgoAK47.dfb2090fd5542d1990e3.png",
     "static/media/CSohnepixal.avif": "/static/media/CSohnepixal.cc22380837dfd121a95a.avif",
     "index.html": "/index.html",
-    "main.9f5955f4.css.map": "/static/css/main.9f5955f4.css.map",
-    "main.40815597.js.map": "/static/js/main.40815597.js.map",
+    "main.411a0793.css.map": "/static/css/main.411a0793.css.map",
+    "main.d00a8274.js.map": "/static/js/main.d00a8274.js.map",
     "787.85fb1cf1.chunk.js.map": "/static/js/787.85fb1cf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5955f4.css",
-    "static/js/main.40815597.js"
+    "static/css/main.411a0793.css",
+    "static/js/main.d00a8274.js"
   ]
 }
