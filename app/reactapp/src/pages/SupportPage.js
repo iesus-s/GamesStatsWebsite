@@ -48,7 +48,7 @@ function SupportPage () {
                       <Card.Text className="text-center">
                         Send us a message with any question or comment and we will respond as soon as possible.
                       </Card.Text>
-                      <Button variant="primary" onClick={handleShow}>Email</Button>
+                      <Button variant="danger" onClick={handleShow}>Email</Button>
                       <Modal show={show} onHide={handleClose}>
                         <Modal.Header closeButton>
                           <Modal.Title>Email</Modal.Title>
@@ -69,7 +69,7 @@ function SupportPage () {
                       <Card.Text>
                         Call us anytime! Someone may or may not respond. But, feel free to call.
                       </Card.Text>
-                      <Button variant="primary" onClick={handleShow1}>Phone Number</Button>
+                      <Button variant="danger" onClick={handleShow1}>Phone Number</Button>
                       <Modal show={show1} onHide={handleClose1}>
                         <Modal.Header closeButton>
                           <Modal.Title>Phone Number</Modal.Title>
@@ -90,7 +90,7 @@ function SupportPage () {
                       <Card.Text>
                         Send a letter to our P.O. Box and we will respond in a timely manner.
                       </Card.Text>
-                      <Button variant="primary" onClick={handleShow2}>P.O. Box Address</Button>
+                      <Button variant="danger" onClick={handleShow2}>P.O. Box Address</Button>
                       <Modal show={show2} onHide={handleClose2}>
                         <Modal.Header closeButton>
                           <Modal.Title>Mail Address</Modal.Title>
@@ -126,7 +126,7 @@ function SupportPage () {
                         </Form.Group>
                         <div>
                           <div className="w-25 p-1"></div>
-                          <Button className="shadow-sm" variant="primary" type="submit">
+                          <Button className="shadow-sm" variant="danger" type="submit">
                             Submit
                           </Button>
                           <Modal show={show3} onHide={handleClose3}>

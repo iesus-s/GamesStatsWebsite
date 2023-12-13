@@ -8,38 +8,7 @@ class HomePage extends Component {
 
        <Container fluid>
 
-<div className="w-25 p-12"> </div>
 
-       <div className = "search bar ">
-      <label htmlFor="Search Players" className="block text-sm font-medium leading-6 text-gray-900">
-
-      </label>
-      <div className="relative mt-2 text-center pt-5">
-        <div className="text-center pt-5 pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
-          <span className=" text-gray-500 sm:text-sm"></span>
-        </div>
-        <input
-          type="text"
-          name="Search"
-          id="Search"
-          className="w-10/12 rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-400 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 "
-          placeholder="Search Players"
-        />
-
-        <div className="absolute inset-y-0 right-0 flex items-center">
-
-          <label htmlFor="Find" className="sr-only">
-           Players
-          </label>
-          <div className="text-center pt-5">
-
-            <Button variant="secondary" className=" sticky top-0 "> Search</Button>
-
-            </div>
-        </div>
-
-      </div>
-    </div>
 
      <div className="w-25 p-3"></div>
 
@@ -175,15 +144,15 @@ class HomePage extends Component {
                 </thead>
                 <tbody>
                     <tr>
-                      <td class="border border-slate-700 ...">User1</td>
+                      <td class="border border-slate-700 ...">Steven</td>
                       <td class="border border-slate-700 ...">Online</td>
                     </tr>
                     <tr>
-                      <td class="border border-slate-700 ...">User2</td>
+                      <td class="border border-slate-700 ...">Luis</td>
                       <td class="border border-slate-700 ...">Offline</td>
                     </tr>
                     <tr>
-                      <td class="border border-slate-700 ...">User3</td>
+                      <td class="border border-slate-700 ...">Miguel</td>
                       <td class="border border-slate-700 ...">Online</td>
                     </tr>
                   </tbody>

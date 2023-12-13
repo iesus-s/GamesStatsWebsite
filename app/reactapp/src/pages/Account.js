@@ -37,7 +37,7 @@ const Account = () => {
   };
   
   return (
-    <div className="container-fluid pt-40 pb-20 bg-gradient-to-b from-logo via-night to-logo">
+    <div className="container-fluid pt-40 pb-20 ">
       <div className=" my-0">
         <h1></h1>
         <AccountProfile />
